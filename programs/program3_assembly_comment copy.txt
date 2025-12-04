@@ -1,0 +1,253 @@
+XOR R0 0		# reset R0 = 0 ### i loop address ###
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = 1*2^7 = 128
+LDR R0 0		# R0 = data[128]
+XOR R1 0		# R1 = data[128]
+LDR R1 2		# R0 = dat[4N]
+XOR R5 0		# R5 = dat[4N+2]
+XOR R0 0		# reset R0 = 0
+ADD R1 1		# R1 = 4N+1
+LDR R1 2		# R0 = dat[4N+3]
+XOR R4 0		# R3 = dat[4N+3]
+XOR R0 0		# reset R0 = 0
+XOR R6 6		# reset R6 = 0 ### Shift Add loop address ###
+XOR R7 7		# reset R7 = 0
+LDR R1 0		# R0 = dat[4N]
+XOR R7 0		# R7 = dat[4N]
+XOR R0 0		# reset R0 = 0
+LDR R1 1		# R0 = dat[4N+1]
+XOR R6 0		# R6 = dat[4N+1]
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+ADD R1 1		# R1 = 0b0000_0001
+XOR R0 4		# R0 = B[7:0]
+AND R0 1		# R0 = B[0]
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 1		# R0 = 129
+LDR R0 3		# R0 = data[133]
+BNZ R0 1		# branch if Q[0] == 0?
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R0 5		# R0 = A_N LSB
+ADD R2 0		# R2 += A_N LSB
+XOR R0 0		# reset R0 = 0
+XOR R0 6		# R0 = A_N MSB
+ADD R3 0		# R3 += A_N MSB (takes carry in from previous)
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R1 7		# R1 = A_N MSB
+ROR R1 7		# rotate…
+ADD R0 1		# and mask LSB
+AND R1 0		# R7 = A[15] (B[0] was calculated to get here)
+XOR R1 0		# A[15] ^ 0b1 (if A[15] = 0b1 then take branch)
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 2		# R0 = 130
+LDR R0 3		# R0 = data[134]
+BNZ R0 1		# skip over next few instructions (getting F_old)
+XOR R0 0		# reset R0 = 0 ### F_old retrieval address ###
+XOR R1 1		# reset R1 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = 2^7 = 128
+LDR R0 2		# R0 = dat[130]
+XOR R1 0		# R7 = F_old
+XOR R0 0		# reset R0 = 0 ### F_old skip address ###
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = 2^7 = 128
+STR R1 2		# dat[130] = F
+XOR R0 0		# reset R0 = 0
+ROR R1 1		# R1 = 0b(F)000_0000
+ROR R3 1		# right shift result 1st MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 3		# R0 = result[8]
+XOR R3 0		# delete MSB
+XOR R3 1		# R3 = {F, result[15:9]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R1 = result[8]
+ROR R2 1		# right shift result 2nd MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 2		# R0 = result[0]
+XOR R2 0		# delete MSB
+XOR R2 1		# R2 = {result[8], result[7:1]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R7 = result[0]
+ROR R5 1		# right shift B MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 5		# R0 = B_N[8]
+XOR R5 0		# delete MSB
+XOR R5 1		# R5 = {result[0], B_N[15:9]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R1 = B_N[8]
+ROR R4 1		# right shift B LSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 4		# R0 = result[0]
+XOR R4 0		# delete MSB
+XOR R4 1		# R4 = {B_N[8], B_N[7:1]}
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R6 6		# reset R6 = 0, will reload
+XOR R7 7		# reset R7 = 0, will reload
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 1		# R0 = 129
+LDR R0 2		# R0 = data[131]
+XOR R1 0		# R1 = counter
+ADD R1 1		# step by 1
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 1		# R0 = 129
+STR R1 2		# data[131] = ++counter
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 4		# R0 = R0*2^4 = 16
+ADD R0 5		# R0 = 15
+SLT R1 0		# R1 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+LDR R0 3		# R0 = data[132]
+BNZ R0 1		# iterate 15 times
+ADD R1 1		# R1 = 0b0000_0001
+XOR R0 4		# R0 = B[7:0]
+AND R0 1		# R0 = B[0]
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+XOR R1 0		# flip bit for branch
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 4		# R0 = 136
+LDR R0 5		# R0 = data[135]
+BNZ R0 1		# branch if B[0] == 0?
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+LDR R0 4		# R0 = data[136]
+XOR R1 0		# R1 = data[136]
+XOR R0 0		# reset R0 = 0
+XOR R0 5		# R0 = A_N LSB
+XOR R0 1		# flip R0
+ADD R0 1		# add 1 (negate)
+ADD R2 0		# R2 += A_N LSB
+XOR R0 0		# reset R0 = 0
+XOR R0 6		# R0 = A_N MSB
+XOR R0 1		# flip R0
+ADD R0 1		# add 1 (negate)
+ADD R3 0		# R3 += A_N MSB (takes carry in from previous)
+XOR R0 0		# reset R0 = 0 ### skip last iteration address ###
+XOR R1 1		# reset R1 = 0
+ADD R1 1		# R1 = 0b0000_0001
+XOR R0 4		# R0 = B[7:0]
+AND R0 1		# R0 = B[0]
+XOR R1 0		# R1 = R0
+XOR R0 7		# R1 = A_N MSB
+ROR R0 7		# rotate…
+XOR R1 0		# A[15] ^ B[0] and junk
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# and mask LSB
+AND R1 0		# R1 = A[15] ^ B[0]
+XOR R0 0		# reset R0 = 0
+ROR R1 1		# R1 = 0b(F)000_0000
+ROR R3 1		# right shift result 1st MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 3		# R0 = result[8]
+XOR R3 0		# delete MSB
+XOR R3 1		# R3 = {F, result[15:9]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R1 = result[8]
+ROR R2 1		# right shift result 2nd MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 2		# R0 = result[0]
+XOR R2 0		# delete MSB
+XOR R2 1		# R2 = {result[8], result[7:1]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R7 = result[0]
+ROR R5 1		# right shift B MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 5		# R0 = B_N[8]
+XOR R5 0		# delete MSB
+XOR R5 1		# R5 = {result[0], B_N[15:9]}
+XOR R1 1		# reset R1 = 0
+XOR R1 0		# R1 = B_N[8]
+ROR R4 1		# right shift B LSB
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 0b0000_0001
+ROR R0 1		# R0 = 0b1000_0000
+AND R0 4		# R0 = result[0]
+XOR R4 0		# delete MSB
+XOR R4 1		# R4 = {B_N[8], B_N[7:1]}
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = 1*2^7 = 128
+LDR R0 0		# R0 = data[128]
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = 64
+STR R3 0		# data[64+4N+0] = result 1st MSB
+STR R2 1		# data[64+4N+1] = result 2nd MSB
+STR R5 2		# data[64+4N+2] = B_N MSB
+ADD R0 1		# R0 = 65
+STR R3 2		# data[64+4N+3] = B_N LSB
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+XOR R4 4		# reset R4 = 0
+XOR R5 5		# reset R5 = 0
+XOR R6 6		# reset R6 = 0
+XOR R7 7		# reset R7 = 0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+STR R1 3		# data[132] = 0
+XOR R0 0		# reset R0 = 0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+ADD R0 1		# R0 = 129
+STR R1 2		# data[131] = 0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+LDR R0 0		# R0 = data[128]
+XOR R1 0		# R1 = i counter
+ADD R1 3		# step by 4
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+STR R1 0		# data[128] = ++i
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 7		# R0 = R0*2^7 = 128
+SLT R1 0		# R1 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 1		# R0 = R0*2^7 = 128
+LDR R0 1		# R0 = data[129]
+BNZ R1 1		# for i in range(len(arr)) branch if R7 < R0
+AND RO 0        # stall

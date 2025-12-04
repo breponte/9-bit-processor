@@ -1,0 +1,292 @@
+XOR R7 7		# i = 0
+XOR R6 6		# j = 0 ### i loop address ###
+XOR R0 0        # reset R0 = 0
+XOR R6 7        # j = i
+ADD R6 2        # j = i+1
+XOR R5 5		# initialize higher byte distance ### j loop address ###
+XOR R4 4		# initialize lower byte distance
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+LDR R6 1		# R0 = dat[j+1]
+XOR R5 0		# R5 = dat[j+1]
+XOR R0 0        # reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 4		# R0 = dat[72] (mask)
+XOR R5 0		# flip all R5 bits (negate an integer)
+XOR R0 0        # reset R0 = 0
+ADD R5 1        # add 1 to negate
+ADD R1 0        # store carry bit from negation
+LDR R7 1		# R0 = dat[i+1]
+XOR R2 0        # R2 = dat[i+1]
+ADD R5 0		# R5 = abs(-dat[j+1] + dat[i+1])
+XOR R0 0		# reset R0 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R3 0        # store carry bit from difference
+LDR R6 0		# R0 = dat[j]
+XOR R4 0		# R4 = dat[j]
+XOR R0 0        # reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 4		# R0 = dat[72] (mask)
+XOR R4 0		# flip all R4 bits (negate an integer)
+XOR R0 0        # reset R0 = 0
+XOR R0 1        # R0 = R1
+ADD R4 0        # carry in from negation
+XOR R0 0        # reset R0 = 0
+LDR R7 0		# R0 = dat[i]
+XOR R2 0        # R2 = dat[i]
+ADD R4 0		# R4 = abs(-dat[j+1] + dat[i+1])
+XOR R0 0        # reset R0 = 0
+XOR R0 3        # R3 = R0
+ADD R4 0        # R4 += R3 (carry)
+ADD R0 0        # dump carry bit
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1=9
+ADD R0 1		# R0 = 9+9+1=19
+ROR R0 6		# R0 = R0*2^2 = 76
+XOR R3 0        # R3 = 76
+LDR R7 0		# R0 = dat[i]
+XOR R1 0        # R1 = dat[i]
+LDR R6 0		# R0 = dat[j]
+XOR R2 0        # R2 = dat[j]
+SLT R1 2        # dat[i] > dat[j]?
+XOR R1 1        # reset R1 = 0
+XOR R1 0        # R1 = 0
+LDR R3 5		# R0 = data[75]
+BNZ R0 1        # skip negation since dat[i] > dat[j]
+SLT R1 2        # dat[i] < dat[j]?
+XOR R1 1        # reset R1 = 0
+XOR R1 0        # R1 = 0
+LDR R3 0		# R0 = data[76]
+BNZ R0 1        # skip TO negation since dat[i] < dat[j]
+XOR R1 1        # reset R1 = 0
+XOR R2 2        # reset R2 = 0
+LDR R7 1		# R0 = dat[i+1]
+XOR R1 0        # R1 = dat[i+1]
+LDR R6 1		# R0 = dat[j+1]
+XOR R2 0        # R2 = dat[j+1]
+SLT R2 1        # dat[i+1] > dat[j+1]? sign unknown
+XOR R1 1        # reset R1 = 0
+XOR R2 2        # reset R2 = 0
+XOR R1 0        # R1 = 0
+LDR R3 1        # R0 = data[77]
+BNZ R0 1        # skip to checking sign of dat[i]
+XOR R0 0        # reset R0 = 0
+XOR R1 1        # reset R1 = 0
+XOR R2 2        # reset R2 = 0
+LDR R6 0		# R0 = dat[j]
+XOR R1 0        # R1 = dat[j]
+ROR R1 7        # MSB now LSB
+XOR R0 0        # reset R0 = 0
+ADD R0 1        # R0 = 0b0000_0001
+AND R1 0        # mask MSB
+LDR R3 5		# R0 = data[75]
+BNZ R0 1        # skip negation since dat[i] > dat[j]
+LDR R3 0		# R0 = data[76]
+BNZ R0 0        # skip TO negation since dat[i] < dat[j]
+XOR R0 0        # reset R0 = 0
+XOR R1 1        # reset R1 = 0
+XOR R2 2        # reset R2 = 0
+LDR R7 0		# R0 = dat[i]
+XOR R1 0        # R1 = dat[i]
+ROR R1 7        # MSB now LSB
+XOR R0 0        # reset R0 = 0
+ADD R0 1        # R0 = 0b0000_0001
+AND R1 0        # mask MSB
+LDR R3 5		# R0 = data[75]
+BNZ R0 1        # skip negation since dat[i] > dat[j]
+XOR R0 0        # reset R0 = 0
+XOR R1 1        # reset R1 = 0
+XOR R2 2        # reset R2 = 0
+XOR R3 3        # reset R3 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 4		# R0 = dat[72] (mask)
+XOR R5 0		# flip all R4 bits (negate an integer)
+XOR R0 0        # reset R0 = 0
+ADD R5 1        # add 1 to negate
+ADD R1 0        # store carry bit
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 4		# R0 = dat[72] (mask)
+XOR R4 0		# flip all R4 bits (negate an integer)
+XOR R0 0        # reset R0 = 0
+XOR R0 1        # move carry
+ADD R4 0        # add carry bit
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0*2^6 = 64
+LDR R0 2		# R0 = dat[66]
+XOR R3 0        # R3 = dat[66]
+SLT R3 4		# R3 < R4
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 1		# R0 = data[73]
+XOR R2 0		# R2 = data[73]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over min update
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+SLT R4 3        # R4 < R3
+XOR R1 0		# R1 = R0
+XOR R0 0        # reset R0 = 0
+ADD R0 2		# R0 = 2
+ADD R0 1		# R0 = 2+2+1=5
+ROR R0 4		# R0*2^4 = 80
+LDR R0 6		# R0 = data[78]
+XOR R2 0		# R2 = data[78]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip TO min update
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 5		# R0 = dat[67]
+SLT R0 5		# R0 < R5
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 1		# R0 = data[73]
+XOR R2 0		# R2 = data[73]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over next few instructions
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0*2^6 = 64
+STR R4 2		# dat[66] = distance MSB
+XOR R0 0        # reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+STR R5 5		# dat[67] = distance LSB
+XOR R0 0		# reset R0 = 0 SKIPPED HERE
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 0		# R0 = dat[68]
+XOR R3 0        # R3 = R0
+SLT R4 3		# R4 < R3
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 2		# R0 = data[74]
+XOR R2 0		# R2 = data[74]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over max update
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+SLT R3 4        # R3 < R4
+XOR R1 0		# R1 = R0
+XOR R0 0        # reset R0 = 0
+ADD R0 2		# R0 = 2
+ADD R0 1		# R0 = 2+2+1=5
+ROR R0 4		# R0*2^4 = 80
+LDR R0 5		# R0 = data[79]
+XOR R2 0		# R2 = data[79]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip TO max update
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 0		# R0 = dat[68]
+SLT R0 5		# R0 < R5
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 2		# R0 = data[74]
+XOR R2 0		# R2 = data[74]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over next few instructions
+XOR R0 0		# reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+STR R4 0		# dat[68] = distance MSB
+XOR R0 0		# reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+STR R5 1		# dat[69] = distance LSB
+XOR R0 0		# reset R0 = 0 SKIPPED HERE
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R6 2		# step by 2
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+SLT R6 0		# R6 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 5		# R0 = data[71]
+XOR R2 0		# R2 = data[71]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for j in range(len(arr)) branch if R6 < 64
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R7 2		# step by 2
+ADD R1 1		# R1 = 1
+ADD R1 2		# R1 = 3
+ADD R1 3		# R1 = 7
+ADD R1 4		# R1 = 15
+ADD R1 4		# R1 = 23
+ADD R1 4		# R1 = 31
+ROR R1 7		# R0 = R0*2 = 62
+SLT R7 1		# R7 < R1? R0 = result
+XOR R1 1        # reset R1 = 0
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 6		# R0 = data[70]
+XOR R2 0		# R2 = data[70]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for i in range(len(arr)) branch if R7 < 64
+AND R0 0        # stall

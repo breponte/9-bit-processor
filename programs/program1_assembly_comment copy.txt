@@ -1,0 +1,151 @@
+XOR R7 7		# i = 0
+XOR R6 6		# j = 0 ### i loop address ###
+XOR R0 0        # reset R0 = 0
+XOR R6 7        # j = i
+ADD R6 2        # j = i+1
+XOR R0 0		# reset R0 = 0 ### j loop address ###
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+XOR R4 4		# initialize distance
+LDR R6 0		# R0 = dat[j]
+XOR R3 0		# R3 = dat[j]
+LDR R7 0		# R0 = dat[i]
+XOR R3 0		# R3 = R3 ^ R0
+XOR R5 5		# k = 0
+XOR R0 0		# reset R0 = 0 ### byte loop address 1 ###
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+ADD R0 1		# R0 = 0b0000_0001
+XOR R2 3		# R2 = R3 = hamming
+AND R0 2		# R0 = hamming & 0b0000_0001
+ADD R4 0		# R4 = R4 + R0, increment distance if found 1
+ROR R3 1        # rotate to look at next bit
+XOR R0 0		# reset R0 = 0
+XOR R2 2		# reset R2 = 0
+ADD R5 1		# step by 1
+ADD R0 1		# R0 = 1
+ROR R0 5		# R0 = R0*2^3 = 8
+SLT R5 0		# R5 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 3		# R0 = data[68]
+XOR R2 0		# R2 = data[68]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for i in range(8) branch if R5 < 8
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+LDR R6 1		# R0 = dat[j+1]
+XOR R3 0		# R3 = dat[j+1]
+LDR R7 1		# R0 = dat[i+1]
+XOR R3 0		# R3 = R3 ^ R0
+XOR R5 5		# k = 0
+XOR R0 0		# reset R0 = 0 ### byte loop address 2 ###
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+ADD R0 1		# R0 = 0b0000_0001
+XOR R2 3		# R2 = R3 = hamming
+AND R0 2		# R0 = hamming & 0b0000_0001
+ADD R4 0		# R4 = R4 + R0, increment distance if found 1
+ROR R3 1        # rotate to look at next bit
+XOR R0 0		# reset R0 = 0
+XOR R2 2		# reset R2 = 0
+ADD R5 1		# step by 1
+ADD R0 1		# R0 = 1
+ROR R0 5		# R0 = R0*2^3 = 8
+SLT R5 0		# R5 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 1		# R0 = data[69]
+XOR R2 0		# R2 = data[69]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for i in range(8) branch if R5 < 8
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0*2^6 = 64
+LDR R0 0		# R0 = dat[64]
+SLT R0 4		# R0 < R4
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 2		# R0 = data[70]
+XOR R2 0		# R2 = data[70]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over next four instructions
+XOR R0 0		# reset R0 = 0
+ADD R0 1        # R0 = 1
+ROR R0 2        # R0 = 2^6 = 64
+STR R4 0		# dat[64] = R4
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0*2^6 = 64
+LDR R0 1		# R0 = dat[65]
+SLT R4 0		# R4 < R0
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 3		# R0 = 4
+ADD R0 1		# R0 = 4+4+1 = 9
+ROR R0 5		# R0 = R0*2^3 = 72
+LDR R0 5		# R0 = data[71]
+XOR R2 0		# R2 = data[71]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# skip over next four instructions
+XOR R0 0		# reset R0 = 0
+ADD R0 1        # R0 = 1
+ROR R0 2        # R0 = 2^6 = 64
+STR R4 1		# dat[65] = R4
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R6 2		# step by 2
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+SLT R6 0		# R6 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 4		# R0 = 8
+ADD R0 1		# R0 = 8+8+1
+ROR R0 6		# R0 = R0*2^2 = 68
+LDR R0 5		# R0 = data[67]
+XOR R2 0		# R2 = data[67]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for j in range(len(arr)) branch if R6 < 64
+XOR R0 0		# reset R0 = 0
+XOR R1 1		# reset R1 = 0
+XOR R2 2		# reset R2 = 0
+XOR R3 3		# reset R3 = 0
+ADD R7 2		# step by 2
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+SLT R7 0		# R7 < R0? R0 = result
+XOR R1 0		# R1 = R0
+XOR R0 0		# reset R0 = 0
+ADD R0 1		# R0 = 1
+ROR R0 2		# R0 = R0*2^6 = 64
+LDR R0 2		# R0 = data[66]
+XOR R2 0		# R2 = data[66]
+XOR R0 0		# reset R0 = 0
+XOR R0 1		# R0 = R1
+BNZ R2 0		# for i in range(len(arr)) branch if R7 < 64
+AND R0 0        # stall

@@ -1,0 +1,172 @@
+{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module instr_ROM
+
+Top level modules:
+	instr_ROM
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv}} {0 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:46 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv 
+-- Compiling module top_level
+** Error: C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/top_level.sv(55): (vlog-2110) Illegal reference to net "muxWrite".
+End time: 09:22:46 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {6.0 7.0} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:46 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv 
+-- Compiling module PC
+
+Top level modules:
+	PC
+End time: 09:22:46 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:46 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv 
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+End time: 09:22:46 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:45 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv 
+-- Compiling module instr_ROM
+
+Top level modules:
+	instr_ROM
+End time: 09:22:46 on Jun 10,2024, Elapsed time: 0:00:01
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:45 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv 
+-- Compiling module dat_mem
+
+Top level modules:
+	dat_mem
+End time: 09:22:45 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module immed_LUT
+
+Top level modules:
+	immed_LUT
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench_new.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench_new.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:46 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench_new.sv 
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+End time: 09:22:46 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:45 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv 
+-- Compiling module immed_LUT
+
+Top level modules:
+	immed_LUT
+End time: 09:22:45 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:45 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv 
+-- Compiling module Control
+
+Top level modules:
+	Control
+End time: 09:22:45 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench2_new.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench2_new.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 18:49:15 on Jun 09,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench2_new.sv 
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+End time: 18:49:15 on Jun 09,2024, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 09:22:45 on Jun 10,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv 
+-- Compiling module alu
+
+Top level modules:
+	alu
+End time: 09:22:45 on Jun 10,2024, Elapsed time: 0:00:00
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench2_new.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench2_new.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+
+} {} {}} {{C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench3_new.sv}} {1 {vlog -work work -vopt -sv {C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench3_new.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 18:49:15 on Jun 09,2024
+vlog -reportprogress 300 -work work -vopt -sv C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/test_bench3_new.sv 
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+End time: 18:49:15 on Jun 09,2024, Elapsed time: 0:00:00
+
+} {} {}}

@@ -1,0 +1,439 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA_lite/21.1
+T_opt
+!s110 1718413017
+VG^]?j18B7AE6CdVLGPKGX1
+Z2 04 10 4 work test_bench fast 0
+=1-74563cb5a84f-666ce6d9-234-3df8
+Z3 !s124 OEM10U9 
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1718037072
+V0THV_b<JeVXMF7zZK:fNA0
+R2
+=1-74563cb5a84f-66672a50-119-41fc
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1761684306
+V[i_<C;@Vh:oCd:nNVKAkW3
+R2
+=1-74563cb5a84f-69012b52-b3-cdf4
+R3
+R4
+R5
+n@_opt2
+R6
+valu
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1718477700
+!i10b 1
+!s100 mlFoYeo`<QDiecd64JhFK3
+IYIm9L85CNUT8COGYbOIkY2
+S1
+Z9 dC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final
+w1718477400
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv
+!i122 2092
+L0 3 45
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z12 !s108 1718477700.000000
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/alu.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vControl
+R7
+R8
+!i10b 1
+!s100 `=Y=Pa_OY^56;h3oFFYd;2
+Id;52D2EkKD<?UShjdIf9g2
+S1
+R9
+w1718229140
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv
+!i122 2093
+L0 2 98
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/Control.sv|
+!i113 0
+R13
+R5
+n@control
+vdat_mem
+R7
+!s110 1718036844
+!i10b 1
+!s100 6=@:I[0zVKdofFED05Fnf1
+I1MNYaET:WcV`6Gh@cIJCl3
+S1
+R9
+w1717779969
+Z14 8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv
+Z15 FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv
+!i122 189
+Z16 L0 2 18
+R10
+R11
+r1
+!s85 0
+31
+!s108 1718036844.000000
+Z17 !s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv|
+!i113 0
+R13
+R5
+vdm
+R7
+R8
+!i10b 1
+!s100 5`eH1DlPW2K:TFiH?CCNz3
+IY?d]3_ch5dBE]n[X_hogH0
+S1
+R9
+w1718435332
+R14
+R15
+!i122 2094
+R16
+R10
+R11
+r1
+!s85 0
+31
+R12
+R17
+R18
+!i113 0
+R13
+R5
+vimmed_LUT
+R7
+R8
+!i10b 1
+!s100 Y<VjzjzTfdehRdAYa65hY2
+IA97M3NYgzMgezUQz>;X4I1
+S1
+R9
+w1718396929
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv
+!i122 2095
+L0 1 27
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/immed_LUT.sv|
+!i113 0
+R13
+R5
+nimmed_@l@u@t
+vinstr_ROM
+R7
+R8
+!i10b 1
+!s100 h2il8e5:PXW_zgTaFW?X62
+IBCUfI;Ei1lU3fTa>[am<P3
+S1
+R9
+w1717779882
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv
+!i122 2096
+L0 4 10
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/instr_ROM.sv|
+!i113 0
+R13
+R5
+ninstr_@r@o@m
+vPC
+R7
+R8
+!i10b 1
+!s100 8?[^=2l]=73ZFn:fG;nkE3
+I7kjYiJ9>?==lha1]GEcIf1
+S1
+R9
+w1718435553
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv
+!i122 2097
+L0 3 17
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/PC.sv|
+!i113 0
+R13
+R5
+n@p@c
+vreg_file
+R7
+R8
+!i10b 1
+!s100 1aNeQ_LA<GcHMOd[HX>2K1
+IUAa9]0f]4_C8>TkZldo3h1
+S1
+R9
+w1718412125
+8C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv
+FC:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv
+!i122 2098
+L0 3 27
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv|
+!i113 0
+R13
+R5
+vtest_bench
+R7
+!s110 1761684275
+!i10b 1
+!s100 mKBI<^EZBY23CbMV4;HMI2
+I2]fX6f0W1YS5HSGIbFRZA1
+S1
+Z19 dC:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final
+w1761684265
+8C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv
+FC:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv
+!i122 2112
+L0 3 140
+R10
+R11
+r1
+!s85 0
+31
+!s108 1761684274.000000
+!s107 C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv|
+!i113 0
+Z20 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vtop_level
+R7
+!s110 1761684067
+!i10b 1
+!s100 D<TeU2dL7NMXX1oP[Z7>a0
+IhjRXRIN_J4d^UVgY3lbbC1
+S1
+R19
+w1761096669
+8C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv
+FC:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv
+!i122 2111
+L0 2 104
+R10
+R11
+r1
+!s85 0
+31
+!s108 1761684067.000000
+!s107 C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv|
+!i113 0
+R20
+R5

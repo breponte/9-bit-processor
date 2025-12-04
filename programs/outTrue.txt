@@ -1,0 +1,10 @@
+Min pair = 1, 0 	 Max pair = 31, 15
+Min pair = 31, 2 	 Max pair = 16, 15
+Min pair = 1, 0 	 Max pair = 3, 0
+Min pair = 20, 2 	 Max pair = 6, 4
+Min pair = 30, 21 	 Max pair = 19, 3
+Min pair = 29, 15 	 Max pair = 12, 10
+Min pair = 9, 8 	 Max pair = 19, 2
+Min pair = 24, 8 	 Max pair = 18, 12
+Min pair = 24, 12 	 Max pair = 19, 15
+Min pair = 10, 3 	 Max pair = 12, 3

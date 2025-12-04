@@ -1,0 +1,89 @@
+// control decoder
+module Control #(parameter opwidth = 3, mcodebits = 3)(
+	input [5:0] 		instr,    	// subset of machine code (any width you need)
+	output logic 					Branch, 
+										MemtoReg,
+										MemWrite,
+										ALUSrc,
+										RegWrite,
+	output logic[opwidth-1:0] 	ALUOp);	   // for up to 8 ALU operations
+
+always_comb begin
+	// defaults
+	Branch	= 'b0;   							// 1: branch (jump)
+	MemtoReg = 'b0;   							// 1: load -- route memory instead of ALU to reg_file data in
+	MemWrite = 'b0;   							// 1: store to memory
+	ALUSrc 	= 'b0;   							// 1: immediate  0: second reg file output
+	RegWrite = 'b1;   							// 0: for store or no op  1: most other operations 	
+	
+case(instr)    									// override defaults with exceptions
+	'b000: begin									// and
+		ALUOp	   = 'b000;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b0;
+		RegWrite = 'b1;
+	end
+	'b001: begin									// xor
+		ALUOp	   = 'b001;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b0;
+		RegWrite = 'b1;
+	end
+	'b010: begin									// slt
+		ALUOp	   = 'b010;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b0;
+		RegWrite = 'b1;
+	end
+	'b011: begin									// bnz
+		ALUOp	   = 'b011;
+		Branch	= 'b1;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b0;
+		RegWrite = 'b1;
+	end
+	'b100: begin									// add
+		ALUOp	   = 'b100;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b1;
+		RegWrite = 'b1;
+	end
+	'b101: begin									// ror
+		ALUOp	   = 'b101;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b1;
+		RegWrite = 'b1;
+	end
+	'b110: begin									// ldr
+		ALUOp	   = 'b110;
+		Branch	= 'b0;
+		MemtoReg = 'b1;
+		MemWrite = 'b0;
+		ALUSrc 	= 'b1;
+		RegWrite = 'b1;
+	end
+	'b111: begin									// str
+		ALUOp	   = 'b111;
+		Branch	= 'b0;
+		MemtoReg = 'b0;
+		MemWrite = 'b1;
+		ALUSrc 	= 'b1;
+		RegWrite = 'b0;
+	end
+	
+	endcase
+
+end
+	
+endmodule

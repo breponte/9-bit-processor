@@ -44,9 +44,14 @@ int arithmeticDistance(uint8_t * data, uint8_t * result) {
             // Case 1: Two Positives or Two Negatives (i.e. Signs Match)
             if (((distMSB ^ jValMSB) & 0b10000000) == 0b00000000) {
                 // negate smaller positive
-                if (distMSB < jValMSB ||
-                    (distMSB == jValMSB && distLSB < jValLSB)) {
+                if (distMSB < jValMSB) {
                     dist = NEGATE_16(dist);                 // +0 registers
+                } else if ((distMSB ^ jValMSB) == 0b00000000) {
+                    if (distLSB < jValLSB) {
+                        dist = NEGATE_16(dist);             // +0 registers
+                    } else {
+                        jVal = NEGATE_16(jVal);             // +0 registers
+                    }
                 } else {
                     jVal = NEGATE_16(jVal);                 // +0 registers
                 }
@@ -54,10 +59,10 @@ int arithmeticDistance(uint8_t * data, uint8_t * result) {
             // Case 3: Positive and Negative
             else {
                 // negate negative
-                if ((distMSB & 0b10000000) == 0b10000000) {
-                    dist = NEGATE_16(dist);                 // +0 registers
-                } else {
+                if ((distMSB & 0b10000000) != 0b10000000) {
                     jVal = NEGATE_16(jVal);                 // +0 registers
+                } else {
+                    dist = NEGATE_16(dist);                 // +0 registers
                 }
             }
 

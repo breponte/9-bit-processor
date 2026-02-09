@@ -60,16 +60,21 @@ initial begin
     D1.dm.core[68] = 'h0000;		         // preset DUT final Max to min possible
     D1.dm.core[69] = 'h0000;
     // preload
-    D1.dm.core[70] = 'd1;
-    D1.dm.core[71] = 'd5;
-    D1.dm.core[72] = 'b11111111;
-    D1.dm.core[73] = 'd185;
-    D1.dm.core[74] = 'd249;
-    D1.dm.core[75] = 'd123;
-    D1.dm.core[76] = 'd105;
-    D1.dm.core[77] = 'd94;
-    D1.dm.core[78] = 'd176;
-    D1.dm.core[79] = 'd239;
+    D1.dm.core[70] = 'd116;
+    D1.dm.core[71] = 'd61;
+    D1.dm.core[72] = 'd82;
+    D1.dm.core[73] = 'd99;
+    D1.dm.core[74] = 'd99;
+    D1.dm.core[75] = 'd154;
+    D1.dm.core[76] = 'd154;
+    D1.dm.core[77] = 'd146;
+    D1.dm.core[78] = 'd154;
+    D1.dm.core[79] = 'd202;
+    D1.dm.core[80] = 'd208;
+    D1.dm.core[81] = 'd208;
+    D1.dm.core[82] = 'd254;
+    D1.dm.core[83] = 'd260;
+    D1.dm.core[84] = 'd260;
 	D1.rf1.core[0] = 'd0;
 	D1.rf1.core[1] = 'd0;
 	D1.rf1.core[2] = 'd0;
@@ -78,7 +83,7 @@ initial begin
 	D1.rf1.core[5] = 'd0;
 	D1.rf1.core[6] = 'd0;
 	D1.rf1.core[7] = 'd0;
-    for(int r=80; r<256; r++)
+    for(int r=85; r<256; r++)
 	  D1.dm.core[r] = 'd0;		             // preset DUT final Max to min possible 
 // 	compute correct answers
     for(int j=0; j<32; j++) begin			 // triangular half of 32x32 matrix, minus the major diagonal

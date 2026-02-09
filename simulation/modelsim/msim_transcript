@@ -26,98 +26,1128 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:07 on Oct 28,2025
+# Start time: 17:23:34 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 13:07:07 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/PC.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:07 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/PC.sv 
 # -- Compiling module PC
 # 
 # Top level modules:
 # 	PC
-# End time: 13:07:07 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/immed_LUT.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/immed_LUT.sv 
 # -- Compiling module immed_LUT
 # 
 # Top level modules:
 # 	immed_LUT
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv 
 # -- Compiling module dm
 # 
 # Top level modules:
 # 	dm
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/Control.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/Control.sv 
 # -- Compiling module Control
 # 
 # Top level modules:
 # 	Control
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/alu.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv 
 # -- Compiling module instr_ROM
 # 
 # Top level modules:
 # 	instr_ROM
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final {C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:08 on Oct 28,2025
+# Start time: 17:23:35 on Jan 20,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final" C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv 
 # -- Compiling module top_level
 # 
 # Top level modules:
 # 	top_level
-# End time: 13:07:08 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:23:35 on Jan 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/alu.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/Control.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/Control.sv 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv 
+# -- Compiling module dm
+# 
+# Top level modules:
+# 	dm
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/immed_LUT.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/immed_LUT.sv 
+# -- Compiling module immed_LUT
+# 
+# Top level modules:
+# 	immed_LUT
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv 
+# -- Compiling module instr_ROM
+# 
+# Top level modules:
+# 	instr_ROM
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/PC.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv 
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:24:13 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 17:24:13 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.top_level
+# vsim work.top_level 
+# Start time: 17:24:28 on Jan 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_level(fast)
+quit -sim
+# End time: 17:24:35 on Jan 20,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vsim work.test_bench
+# vsim work.test_bench 
+# Start time: 17:25:02 on Jan 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(54): (vopt-7061) Variable 'core[64]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(55): (vopt-7061) Variable 'core[65]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(56): (vopt-7061) Variable 'core[66]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(57): (vopt-7061) Variable 'core[67]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(58): (vopt-7061) Variable 'core[68]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(59): (vopt-7061) Variable 'core[69]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(60): (vopt-7061) Variable 'core[70]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(61): (vopt-7061) Variable 'core[71]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(62): (vopt-7061) Variable 'core[0]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(63): (vopt-7061) Variable 'core[1]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(64): (vopt-7061) Variable 'core[2]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(65): (vopt-7061) Variable 'core[3]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(66): (vopt-7061) Variable 'core[4]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(67): (vopt-7061) Variable 'core[5]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(68): (vopt-7061) Variable 'core[6]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(69): (vopt-7061) Variable 'core[7]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(71): (vopt-7061) Variable 'core' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=18, Warnings=0.
+# Error loading design
+# End time: 17:25:02 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vsim work.test_bench -voptargs=+acc
+# vsim work.test_bench -voptargs="+acc" 
+# Start time: 17:25:21 on Jan 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test_bench(fast)
+# Loading work.top_level(fast)
+# Loading work.PC(fast)
+# Loading work.instr_ROM(fast)
+# Loading work.Control(fast)
+# Loading work.reg_file(fast)
+# Loading work.immed_LUT(fast)
+# Loading work.alu(fast)
+# Loading work.dm(fast)
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "mach_code.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv(10)
+#    Time: 0 ns  Iteration: 0  Instance: /test_bench/D1/ir1
+#           0:  0000000000000000
+#           1:  0000000000000001
+#           2:  0000000000000011
+#           3:  0000000000000111
+#           4:  0000000000001111
+#           5:  0000000000011111
+#           6:  0000000000111111
+#           7:  0000000001111111
+#           8:  0000000011111111
+#           9:  0000000111111111
+#          10:  0000001111111111
+#          11:  0000011111111111
+#          12:  0000111111111111
+#          13:  0001111111111111
+#          14:  0011111111111111
+#          15:  0111111111111111
+#          16:  1111111111111111
+#          17:  1111111111111110
+#          18:  1111111111111100
+#          19:  1111111111111000
+#          20:  1111111111110000
+#          21:  1111111111100000
+#          22:  1111111111000000
+#          23:  1111111110000000
+#          24:  1111111100000000
+#          25:  1111111000000000
+#          26:  1111110000000000
+#          27:  1111100000000000
+#          28:  1111000000000000
+#          29:  1110000000000000
+#          30:  1100000000000000
+#          31:  1000000000000000
+# fail Min: Correct =  1; Yours =  16
+# Min addr =  1,  0
+# Min valu = 0000000000000001, 0000000000000000
+# MAD  Max: Correct = 16; Yours =   0
+# Max pair = 16,  0
+# Max valu = 1111111111111111, 0000000000000000
+#           0:  0000000000000000
+#           1:  0000000000000001
+#           2:  0000000000000011
+#           3:  0000000000000111
+#           4:  0000000000001111
+#           5:  0000000000011111
+#           6:  0000000000111111
+#           7:  0000000001111111
+#           8:  0000000011111111
+#           9:  0000000111111111
+#          10:  0000001111111111
+#          11:  0000011111111111
+#          12:  0000111111111111
+#          13:  0001111111111111
+#          14:  0011111111111111
+#          15:  0111111111111111
+#          16:  1111111111111111
+#          17:  1111111111111111
+#          18:  0111111111111111
+#          19:  0011111111111111
+#          20:  0001111111111111
+#          21:  0000111111111111
+#          22:  0000011111111111
+#          23:  0000001111111111
+#          24:  0000000111111111
+#          25:  0000000011111111
+#          26:  0000000001111111
+#          27:  0000000000111111
+#          28:  0000000000011111
+#          29:  0000000000001111
+#          30:  0000000000000111
+#          31:  0000000000000011
+# fail Min: Correct =  0; Yours =  16
+# Min addr = 31,  2
+# Min valu = 0000000000000011, 0000000000000011
+# MAD  Max: Correct = 16; Yours =   0
+# Max pair = 16,  0
+# Max valu = 1111111111111111, 0000000000000000
+#           0:  1000000000000000
+#           1:  1000000000000000
+#           2:  1000000000000000
+#           3:  0111111111111111
+#           4:  0111111111111111
+#           5:  1000000000000000
+#           6:  0000000000000000
+#           7:  1000000010000000
+#           8:  1000000000000000
+#           9:  0000000000000000
+#          10:  0111111111111111
+#          11:  0000000000000000
+#          12:  0000000000000000
+#          13:  0111111111111111
+#          14:  0000000011111111
+#          15:  0000000011111111
+#          16:  1000000111111111
+#          17:  1000000111111111
+#          18:  0111111100000000
+#          19:  0111111111111111
+#          20:  0111111111111111
+#          21:  0111111100000000
+#          22:  1111111111111111
+#          23:  1111111100000000
+#          24:  1111111100000000
+#          25:  1111111111111111
+#          26:  0000000011111111
+#          27:  0000000100000000
+#          28:  0000000100000000
+#          29:  0000000011111111
+#          30:  1000000000000000
+#          31:  0000000011111111
+# fail Min: Correct =  0; Yours =  16
+# Min addr =  1,  0
+# Min valu = 1000000000000000, 1000000000000000
+# MAD  Max: Correct = 16; Yours =   0
+# Max pair =  3,  0
+# Max valu = 0111111111111111, 1000000000000000
+#           0:  0011010100100100
+#           1:  0101111010000001
+#           2:  1101011000001001
+#           3:  0101011001100011
+#           4:  0111101100001101
+#           5:  1001100110001101
+#           6:  1000010001100101
+#           7:  0101001000010010
+#           8:  1110001100000001
+#           9:  1100110100001101
+#          10:  1111000101110110
+#          11:  1100110100111101
+#          12:  0101011111101101
+#          13:  1111011110001100
+#          14:  1110100111111001
+#          15:  0010010011000110
+#          16:  1000010011000101
+#          17:  1101001010101010
+#          18:  1111011111100101
+#          19:  0111001001110111
+#          20:  1101011000010010
+#          21:  1101101110001111
+#          22:  0110100111110010
+#          23:  1001011011001110
+#          24:  0111101011101000
+#          25:  0100111011000101
+#          26:  0100100101011100
+#          27:  0010100010111101
+#          28:  0101100000101101
+#          29:  0010011001100101
+#          30:  0110001001100011
+#          31:  1000011100001010
+# fail Min: Correct =  2; Yours =  16
+# Min addr = 16,  6
+# Min valu = 1000010011000101, 1000010001100101
+# MAD  Max: Correct = 14; Yours =   0
+# Max pair = 22,  2
+# Max valu = 0110100111110010, 1101011000001001
+#           0:  1011101000000000
+#           1:  1101010100010110
+#           2:  0000000111111000
+#           3:  1000101000110101
+#           4:  0110111010100000
+#           5:  1110111011111000
+#           6:  0100101110011001
+#           7:  1111000001110111
+#           8:  0001000011110011
+#           9:  1001000100110001
+#          10:  1101011101011101
+#          11:  1011101110011111
+#          12:  1011011100011000
+#          13:  0010100101101011
+#          14:  0010001101000101
+#          15:  0011100011011100
+#          16:  0100001100111000
+#          17:  1110000101110110
+#          18:  0110011000111011
+#          19:  0111011011100100
+#          20:  0100111111110101
+#          21:  1010010100010100
+#          22:  1001111011001001
+#          23:  0011111010010110
+#          24:  0011011010100110
+#          25:  0010001000001010
+#          26:  1000101111000000
+#          27:  0001110100010000
+#          28:  0001010010001001
+#          29:  1100010001001101
+#          30:  1010010011001001
+#          31:  0101110011100001
+# fail Min: Correct =  3; Yours =  16
+# Min addr = 17,  7
+# Min valu = 1110000101110110, 1111000001110111
+# MAD  Max: Correct = 14; Yours =   0
+# Max pair = 22, 17
+# Max valu = 1001111011001001, 1110000101110110
+#           0:  1010011010100100
+#           1:  0010101111010000
+#           2:  1001101011000001
+#           3:  0000101011001100
+#           4:  0010111101100001
+#           5:  1111001100110001
+#           6:  0101000010001100
+#           7:  1110101001000010
+#           8:  0111110001100000
+#           9:  1111100110100001
+#          10:  0111111000101110
+#          11:  1011100110100111
+#          12:  1000101011111101
+#          13:  1011111011110001
+#          14:  1011110100111111
+#          15:  1110010010011000
+#          16:  1111000010011000
+#          17:  0111101001010101
+#          18:  1111111011111100
+#          19:  0100111001001110
+#          20:  0101101011000010
+#          21:  1001101101110001
+#          22:  0000110100111110
+#          23:  1101001011011001
+#          24:  0000111101011101
+#          25:  0100100111011000
+#          26:  0000100100101011
+#          27:  1100010100010111
+#          28:  0110101100000101
+#          29:  1110010011001100
+#          30:  1110110001001100
+#          31:  0111000011100001
+# fail Min: Correct =  2; Yours =  16
+# Min addr = 16, 15
+# Min valu = 1111000010011000, 1110010010011000
+# MAD  Max: Correct = 13; Yours =   0
+# Max pair = 22,  2
+# Max valu = 0000110100111110, 1001101011000001
+#           0:  1010100000000111
+#           1:  0010100111110100
+#           2:  0111111111010100
+#           3:  1100010101110011
+#           4:  0111011111110001
+#           5:  0100101111001010
+#           6:  1111010110010001
+#           7:  1110100010010101
+#           8:  1110011101000011
+#           9:  1110011011111000
+#          10:  1010101011010101
+#          11:  0000110001111111
+#          12:  1110010100001001
+#          13:  1111100011101110
+#          14:  0110100010010000
+#          15:  1000101001000110
+#          16:  0001100001011111
+#          17:  0011110001100010
+#          18:  1011111001010111
+#          19:  1000001001100011
+#          20:  1111001100001100
+#          21:  0010110110011011
+#          22:  1111100110000111
+#          23:  1100110011010010
+#          24:  1001111010001110
+#          25:  0000100100010011
+#          26:  0010000110010000
+#          27:  0000011000011111
+#          28:  0000011001101111
+#          29:  1100100101111011
+#          30:  0000001000000101
+#          31:  1000110100011001
+# fail Min: Correct =  3; Yours =  16
+# Min addr = 29,  3
+# Min valu = 1100100101111011, 1100010101110011
+# MAD  Max: Correct = 13; Yours =   0
+# Max pair =  4,  0
+# Max valu = 0111011111110001, 1010100000000111
+#           0:  0100001001000000
+#           1:  1010001000110110
+#           2:  1001111010110100
+#           3:  0000000111110100
+#           4:  1001100001011001
+#           5:  1111101100000100
+#           6:  1010000011000110
+#           7:  1000110000000011
+#           8:  0011011111000100
+#           9:  0101001111000001
+#          10:  1100011010100100
+#          11:  1110000010110111
+#          12:  1000100000011100
+#          13:  0010100110010110
+#          14:  0110000011101001
+#          15:  1101100110100001
+#          16:  1011110001100111
+#          17:  1011100110001011
+#          18:  0111101111010010
+#          19:  0000111100011101
+#          20:  1011111001100111
+#          21:  1111111001010011
+#          22:  1101110000001111
+#          23:  1110001101100011
+#          24:  0011011110011000
+#          25:  1011010110001111
+#          26:  0001100010011011
+#          27:  0110110000010101
+#          28:  1001011111011011
+#          29:  0101101001111000
+#          30:  0111010100011110
+#          31:  1000110100000111
+# fail Min: Correct =  1; Yours =  16
+# Min addr = 20, 16
+# Min valu = 1011111001100111, 1011110001100111
+# MAD  Max: Correct = 14; Yours =   0
+# Max pair = 29, 25
+# Max valu = 0101101001111000, 1011010110001111
+#           0:  0010100000000000
+#           1:  1001101100001101
+#           2:  1001110010101110
+#           3:  1000111110111010
+#           4:  1001010110101111
+#           5:  0001101111001100
+#           6:  1001100001011000
+#           7:  0111010001111000
+#           8:  0000010110000011
+#           9:  0010101010000100
+#          10:  1101100000100010
+#          11:  1000110001011100
+#          12:  1010010100010001
+#          13:  0000001101111001
+#          14:  0110011101111100
+#          15:  0111010011111110
+#          16:  0110001100011010
+#          17:  1010001000100000
+#          18:  0000111010110101
+#          19:  1000100010111000
+#          20:  1110100101101010
+#          21:  1100001011110000
+#          22:  0101111110111110
+#          23:  1110010110011100
+#          24:  1010010011111010
+#          25:  1110000011000001
+#          26:  1010000100010111
+#          27:  0110010010110111
+#          28:  1100000110010100
+#          29:  0011100100101011
+#          30:  1110000000010000
+#          31:  1010010111101110
+# fail Min: Correct =  3; Yours =  16
+# Min addr =  9,  0
+# Min valu = 0010101010000100, 0010100000000000
+# MAD  Max: Correct = 14; Yours =   0
+# Max pair = 25, 22
+# Max valu = 1110000011000001, 0101111110111110
+#           0:  1110100000000001
+#           1:  0010010001011000
+#           2:  0111000100111000
+#           3:  1000001001000000
+#           4:  1001101101101100
+#           5:  1010001001110111
+#           6:  0110100100001110
+#           7:  0011110110001010
+#           8:  0001100011110011
+#           9:  0000110101111011
+#          10:  1000001001011000
+#          11:  1011111010101001
+#          12:  0111111011000101
+#          13:  1100100000110011
+#          14:  0011101001000011
+#          15:  0101001001010111
+#          16:  1010100000101011
+#          17:  0000011110001100
+#          18:  1100110101000000
+#          19:  0000010111011011
+#          20:  0011000101111000
+#          21:  1011001010100110
+#          22:  0011010010010000
+#          23:  1010001111010101
+#          24:  0111011101111011
+#          25:  0111010111110111
+#          26:  0010111110001100
+#          27:  1011011101000001
+#          28:  1001001110110010
+#          29:  1011110100111000
+#          30:  0011011010010011
+#          31:  1000110001010010
+# fail Min: Correct =  2; Yours =  16
+# Min addr = 20,  2
+# Min valu = 0011000101111000, 0111000100111000
+# MAD  Max: Correct = 13; Yours =   0
+# Max pair = 25,  3
+# Max valu = 0111010111110111, 1000001001000000
+# Minimum correct           0/         10
+# Maximum correct           0/         10
+# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(114)
+#    Time: 154650 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv line 114
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.test_bench(fast)
+# Loading work.top_level(fast)
+# Loading work.PC(fast)
+# Loading work.instr_ROM(fast)
+# Loading work.Control(fast)
+# Loading work.reg_file(fast)
+# Loading work.immed_LUT(fast)
+# Loading work.alu(fast)
+# Loading work.dm(fast)
+run -all
+#           0:  0000000000000000
+#           1:  0000000000000001
+#           2:  0000000000000011
+#           3:  0000000000000111
+#           4:  0000000000001111
+#           5:  0000000000011111
+#           6:  0000000000111111
+#           7:  0000000001111111
+#           8:  0000000011111111
+#           9:  0000000111111111
+#          10:  0000001111111111
+#          11:  0000011111111111
+#          12:  0000111111111111
+#          13:  0001111111111111
+#          14:  0011111111111111
+#          15:  0111111111111111
+#          16:  1111111111111111
+#          17:  1111111111111110
+#          18:  1111111111111100
+#          19:  1111111111111000
+#          20:  1111111111110000
+#          21:  1111111111100000
+#          22:  1111111111000000
+#          23:  1111111110000000
+#          24:  1111111100000000
+#          25:  1111111000000000
+#          26:  1111110000000000
+#          27:  1111100000000000
+#          28:  1111000000000000
+#          29:  1110000000000000
+#          30:  1100000000000000
+#          31:  1000000000000000
+# good Min =  1
+# good Max = 16
+#           0:  0000000000000000
+#           1:  0000000000000001
+#           2:  0000000000000011
+#           3:  0000000000000111
+#           4:  0000000000001111
+#           5:  0000000000011111
+#           6:  0000000000111111
+#           7:  0000000001111111
+#           8:  0000000011111111
+#           9:  0000000111111111
+#          10:  0000001111111111
+#          11:  0000011111111111
+#          12:  0000111111111111
+#          13:  0001111111111111
+#          14:  0011111111111111
+#          15:  0111111111111111
+#          16:  1111111111111111
+#          17:  1111111111111111
+#          18:  0111111111111111
+#          19:  0011111111111111
+#          20:  0001111111111111
+#          21:  0000111111111111
+#          22:  0000011111111111
+#          23:  0000001111111111
+#          24:  0000000111111111
+#          25:  0000000011111111
+#          26:  0000000001111111
+#          27:  0000000000111111
+#          28:  0000000000011111
+#          29:  0000000000001111
+#          30:  0000000000000111
+#          31:  0000000000000011
+# good Min =  0
+# good Max = 16
+#           0:  1000000000000000
+#           1:  1000000000000000
+#           2:  1000000000000000
+#           3:  0111111111111111
+#           4:  0111111111111111
+#           5:  1000000000000000
+#           6:  0000000000000000
+#           7:  1000000010000000
+#           8:  1000000000000000
+#           9:  0000000000000000
+#          10:  0111111111111111
+#          11:  0000000000000000
+#          12:  0000000000000000
+#          13:  0111111111111111
+#          14:  0000000011111111
+#          15:  0000000011111111
+#          16:  1000000111111111
+#          17:  1000000111111111
+#          18:  0111111100000000
+#          19:  0111111111111111
+#          20:  0111111111111111
+#          21:  0111111100000000
+#          22:  1111111111111111
+#          23:  1111111100000000
+#          24:  1111111100000000
+#          25:  1111111111111111
+#          26:  0000000011111111
+#          27:  0000000100000000
+#          28:  0000000100000000
+#          29:  0000000011111111
+#          30:  1000000000000000
+#          31:  0000000011111111
+# good Min =  0
+# good Max = 16
+#           0:  0011010100100100
+#           1:  0101111010000001
+#           2:  1101011000001001
+#           3:  0101011001100011
+#           4:  0111101100001101
+#           5:  1001100110001101
+#           6:  1000010001100101
+#           7:  0101001000010010
+#           8:  1110001100000001
+#           9:  1100110100001101
+#          10:  1111000101110110
+#          11:  1100110100111101
+#          12:  0101011111101101
+#          13:  1111011110001100
+#          14:  1110100111111001
+#          15:  0010010011000110
+#          16:  1000010011000101
+#          17:  1101001010101010
+#          18:  1111011111100101
+#          19:  0111001001110111
+#          20:  1101011000010010
+#          21:  1101101110001111
+#          22:  0110100111110010
+#          23:  1001011011001110
+#          24:  0111101011101000
+#          25:  0100111011000101
+#          26:  0100100101011100
+#          27:  0010100010111101
+#          28:  0101100000101101
+#          29:  0010011001100101
+#          30:  0110001001100011
+#          31:  1000011100001010
+# good Min =  2
+# good Max = 14
+#           0:  1011101000000000
+#           1:  1101010100010110
+#           2:  0000000111111000
+#           3:  1000101000110101
+#           4:  0110111010100000
+#           5:  1110111011111000
+#           6:  0100101110011001
+#           7:  1111000001110111
+#           8:  0001000011110011
+#           9:  1001000100110001
+#          10:  1101011101011101
+#          11:  1011101110011111
+#          12:  1011011100011000
+#          13:  0010100101101011
+#          14:  0010001101000101
+#          15:  0011100011011100
+#          16:  0100001100111000
+#          17:  1110000101110110
+#          18:  0110011000111011
+#          19:  0111011011100100
+#          20:  0100111111110101
+#          21:  1010010100010100
+#          22:  1001111011001001
+#          23:  0011111010010110
+#          24:  0011011010100110
+#          25:  0010001000001010
+#          26:  1000101111000000
+#          27:  0001110100010000
+#          28:  0001010010001001
+#          29:  1100010001001101
+#          30:  1010010011001001
+#          31:  0101110011100001
+# good Min =  3
+# good Max = 14
+#           0:  1010011010100100
+#           1:  0010101111010000
+#           2:  1001101011000001
+#           3:  0000101011001100
+#           4:  0010111101100001
+#           5:  1111001100110001
+#           6:  0101000010001100
+#           7:  1110101001000010
+#           8:  0111110001100000
+#           9:  1111100110100001
+#          10:  0111111000101110
+#          11:  1011100110100111
+#          12:  1000101011111101
+#          13:  1011111011110001
+#          14:  1011110100111111
+#          15:  1110010010011000
+#          16:  1111000010011000
+#          17:  0111101001010101
+#          18:  1111111011111100
+#          19:  0100111001001110
+#          20:  0101101011000010
+#          21:  1001101101110001
+#          22:  0000110100111110
+#          23:  1101001011011001
+#          24:  0000111101011101
+#          25:  0100100111011000
+#          26:  0000100100101011
+#          27:  1100010100010111
+#          28:  0110101100000101
+#          29:  1110010011001100
+#          30:  1110110001001100
+#          31:  0111000011100001
+# good Min =  2
+# good Max = 13
+#           0:  1010100000000111
+#           1:  0010100111110100
+#           2:  0111111111010100
+#           3:  1100010101110011
+#           4:  0111011111110001
+#           5:  0100101111001010
+#           6:  1111010110010001
+#           7:  1110100010010101
+#           8:  1110011101000011
+#           9:  1110011011111000
+#          10:  1010101011010101
+#          11:  0000110001111111
+#          12:  1110010100001001
+#          13:  1111100011101110
+#          14:  0110100010010000
+#          15:  1000101001000110
+#          16:  0001100001011111
+#          17:  0011110001100010
+#          18:  1011111001010111
+#          19:  1000001001100011
+#          20:  1111001100001100
+#          21:  0010110110011011
+#          22:  1111100110000111
+#          23:  1100110011010010
+#          24:  1001111010001110
+#          25:  0000100100010011
+#          26:  0010000110010000
+#          27:  0000011000011111
+#          28:  0000011001101111
+#          29:  1100100101111011
+#          30:  0000001000000101
+#          31:  1000110100011001
+# good Min =  3
+# good Max = 13
+#           0:  0100001001000000
+#           1:  1010001000110110
+#           2:  1001111010110100
+#           3:  0000000111110100
+#           4:  1001100001011001
+#           5:  1111101100000100
+#           6:  1010000011000110
+#           7:  1000110000000011
+#           8:  0011011111000100
+#           9:  0101001111000001
+#          10:  1100011010100100
+#          11:  1110000010110111
+#          12:  1000100000011100
+#          13:  0010100110010110
+#          14:  0110000011101001
+#          15:  1101100110100001
+#          16:  1011110001100111
+#          17:  1011100110001011
+#          18:  0111101111010010
+#          19:  0000111100011101
+#          20:  1011111001100111
+#          21:  1111111001010011
+#          22:  1101110000001111
+#          23:  1110001101100011
+#          24:  0011011110011000
+#          25:  1011010110001111
+#          26:  0001100010011011
+#          27:  0110110000010101
+#          28:  1001011111011011
+#          29:  0101101001111000
+#          30:  0111010100011110
+#          31:  1000110100000111
+# good Min =  1
+# good Max = 14
+#           0:  0010100000000000
+#           1:  1001101100001101
+#           2:  1001110010101110
+#           3:  1000111110111010
+#           4:  1001010110101111
+#           5:  0001101111001100
+#           6:  1001100001011000
+#           7:  0111010001111000
+#           8:  0000010110000011
+#           9:  0010101010000100
+#          10:  1101100000100010
+#          11:  1000110001011100
+#          12:  1010010100010001
+#          13:  0000001101111001
+#          14:  0110011101111100
+#          15:  0111010011111110
+#          16:  0110001100011010
+#          17:  1010001000100000
+#          18:  0000111010110101
+#          19:  1000100010111000
+#          20:  1110100101101010
+#          21:  1100001011110000
+#          22:  0101111110111110
+#          23:  1110010110011100
+#          24:  1010010011111010
+#          25:  1110000011000001
+#          26:  1010000100010111
+#          27:  0110010010110111
+#          28:  1100000110010100
+#          29:  0011100100101011
+#          30:  1110000000010000
+#          31:  1010010111101110
+# good Min =  3
+# good Max = 14
+#           0:  1110100000000001
+#           1:  0010010001011000
+#           2:  0111000100111000
+#           3:  1000001001000000
+#           4:  1001101101101100
+#           5:  1010001001110111
+#           6:  0110100100001110
+#           7:  0011110110001010
+#           8:  0001100011110011
+#           9:  0000110101111011
+#          10:  1000001001011000
+#          11:  1011111010101001
+#          12:  0111111011000101
+#          13:  1100100000110011
+#          14:  0011101001000011
+#          15:  0101001001010111
+#          16:  1010100000101011
+#          17:  0000011110001100
+#          18:  1100110101000000
+#          19:  0000010111011011
+#          20:  0011000101111000
+#          21:  1011001010100110
+#          22:  0011010010010000
+#          23:  1010001111010101
+#          24:  0111011101111011
+#          25:  0111010111110111
+#          26:  0010111110001100
+#          27:  1011011101000001
+#          28:  1001001110110010
+#          29:  1011110100111000
+#          30:  0011011010010011
+#          31:  1000110001010010
+# good Min =  2
+# good Max = 13
+# Minimum correct          10/         10
+# Maximum correct          10/         10
+# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv(114)
+#    Time: 223997850 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv line 114
+quit -sim
+# End time: 17:28:57 on Jan 20,2026, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:07:36 on Oct 28,2025
+# Start time: 17:29:29 on Jan 20,2026
 # vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv 
 # -- Compiling module test_bench
 # 
 # Top level modules:
 # 	test_bench
-# End time: 13:07:36 on Oct 28,2025, Elapsed time: 0:00:00
+# End time: 17:29:29 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:29:29 on Jan 20,2026
+# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 17:29:29 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.test_bench
+# vsim -voptargs="+acc" work.test_bench 
+# Start time: 17:30:11 on Jan 20,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.test_bench(fast)
+# Loading work.top_level(fast)
+# Loading work.PC(fast)
+# Loading work.instr_ROM(fast)
+# Loading work.Control(fast)
+# Loading work.reg_file(fast)
+# Loading work.immed_LUT(fast)
+# Loading work.alu(fast)
+# Loading work.dm(fast)
+# Load canceled
+run -all
+#           0:       0
+#           1:       1
+#           2:       3
+#           3:       7
+#           4:      15
+#           5:      31
+#           6:      63
+#           7:     127
+#           8:     255
+#           9:     511
+#          10:    1023
+#          11:    2047
+#          12:    4095
+#          13:    8191
+#          14:   16383
+#          15:   32767
+#          16:      -1
+#          17:      -2
+#          18:      -4
+#          19:      -8
+#          20:     -16
+#          21:     -32
+#          22:     -64
+#          23:    -128
+#          24:    -256
+#          25:    -512
+#          26:   -1024
+#          27:   -2048
+#          28:   -4096
+#          29:   -8192
+#          30:  -16384
+#          31:  -32768
+# Break key hit
+# Simulation stop requested.
+add wave -position insertpoint sim:/test_bench/D1/pc1/*
+add wave -position insertpoint sim:/test_bench/D1/rf1/*
+add wave -position insertpoint sim:/test_bench/D1/alu1/*
+add wave -position insertpoint sim:/test_bench/D1/ir1/*
+add wave -position insertpoint sim:/test_bench/D1/ctl1/*
+add wave -position insertpoint sim:/test_bench/D1/lut1/*
+add wave -position insertpoint sim:/test_bench/D1/dm/*
+add wave -position insertpoint sim:/test_bench/D1/#ASSIGN#30/*
+add wave -position insertpoint sim:/test_bench/D1/rf1/*
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.test_bench(fast)
+# Loading work.top_level(fast)
+# Loading work.PC(fast)
+# Loading work.instr_ROM(fast)
+# Loading work.Control(fast)
+# Loading work.reg_file(fast)
+# Loading work.immed_LUT(fast)
+# Loading work.alu(fast)
+# Loading work.dm(fast)
+run
+#           0:       0
+#           1:       1
+#           2:       3
+#           3:       7
+#           4:      15
+#           5:      31
+#           6:      63
+#           7:     127
+#           8:     255
+#           9:     511
+#          10:    1023
+#          11:    2047
+#          12:    4095
+#          13:    8191
+#          14:   16383
+#          15:   32767
+#          16:      -1
+#          17:      -2
+#          18:      -4
+#          19:      -8
+#          20:     -16
+#          21:     -32
+#          22:     -64
+#          23:    -128
+#          24:    -256
+#          25:    -512
+#          26:   -1024
+#          27:   -2048
+#          28:   -4096
+#          29:   -8192
+#          30:  -16384
+#          31:  -32768
+run
+run
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:42:26 on Jan 20,2026, Elapsed time: 0:12:15
+# Errors: 0, Warnings: 0
+vsim work.Control
+# vsim work.Control 
+# Start time: 17:46:08 on Jan 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.Control(fast)
+quit -sim
+# End time: 17:46:14 on Jan 20,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+vsim work.immed_LUT
+# vsim work.immed_LUT 
+# Start time: 17:52:37 on Jan 20,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.immed_LUT(fast)
+quit -sim
+# End time: 17:52:44 on Jan 20,2026, Elapsed time: 0:00:07
 # Errors: 0, Warnings: 0
 vsim work.test_bench
 # vsim work.test_bench 
-# Start time: 13:07:40 on Oct 28,2025
+# Start time: 18:00:52 on Jan 20,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(58): (vopt-7061) Variable 'core[66]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
 # ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(59): (vopt-7061) Variable 'core[67]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
@@ -133,24 +1163,29 @@ vsim work.test_bench
 # ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(70): (vopt-7061) Variable 'core[77]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
 # ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(71): (vopt-7061) Variable 'core[78]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
 # ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(72): (vopt-7061) Variable 'core[79]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(73): (vopt-7061) Variable 'core[0]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(74): (vopt-7061) Variable 'core[1]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(75): (vopt-7061) Variable 'core[2]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(76): (vopt-7061) Variable 'core[3]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(77): (vopt-7061) Variable 'core[4]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(78): (vopt-7061) Variable 'core[5]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(79): (vopt-7061) Variable 'core[6]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(80): (vopt-7061) Variable 'core[7]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(82): (vopt-7061) Variable 'core' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(73): (vopt-7061) Variable 'core[80]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(74): (vopt-7061) Variable 'core[81]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(75): (vopt-7061) Variable 'core[82]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(76): (vopt-7061) Variable 'core[83]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(77): (vopt-7061) Variable 'core[84]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(78): (vopt-7061) Variable 'core[0]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(79): (vopt-7061) Variable 'core[1]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(80): (vopt-7061) Variable 'core[2]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(81): (vopt-7061) Variable 'core[3]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(82): (vopt-7061) Variable 'core[4]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(83): (vopt-7061) Variable 'core[5]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(84): (vopt-7061) Variable 'core[6]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(85): (vopt-7061) Variable 'core[7]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv(25).
+# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(87): (vopt-7061) Variable 'core' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/dat_mem.sv(17).
 # Optimization failed
 # ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=24, Warnings=0.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=29, Warnings=0.
 # Error loading design
-# End time: 13:07:40 on Oct 28,2025, Elapsed time: 0:00:00
-# Errors: 24, Warnings: 0
+# End time: 18:00:52 on Jan 20,2026, Elapsed time: 0:00:00
+# Errors: 29, Warnings: 0
 vsim work.test_bench -voptargs=+acc
 # vsim work.test_bench -voptargs="+acc" 
-# Start time: 13:07:59 on Oct 28,2025
+# Start time: 18:01:04 on Jan 20,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.test_bench(fast)
@@ -162,422 +1197,23 @@ vsim work.test_bench -voptargs=+acc
 # Loading work.immed_LUT(fast)
 # Loading work.alu(fast)
 # Loading work.dm(fast)
-quit -sim
-# End time: 13:08:10 on Oct 28,2025, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.test_bench
-# vsim -voptargs="+acc" work.test_bench 
-# Start time: 13:22:39 on Oct 28,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.test_bench(fast)
-# Loading work.top_level(fast)
-# Loading work.PC(fast)
-# Loading work.instr_ROM(fast)
-# Loading work.Control(fast)
-# Loading work.reg_file(fast)
-# Loading work.immed_LUT(fast)
-# Loading work.alu(fast)
-# Loading work.dm(fast)
-run -all
-# ** Warning: (vsim-7) Failed to open readmem file "mach_code.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv(10)
-#    Time: 0 ns  Iteration: 0  Instance: /test_bench/D1/ir1
-# ** Warning: (vsim-7) Failed to open readmem file "test0.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(42)
-#    Time: 100 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test1.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(43)
-#    Time: 410950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test2.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(44)
-#    Time: 820950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test3.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(45)
-#    Time: 1230950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test4.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(46)
-#    Time: 1640950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test5.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(47)
-#    Time: 2050950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test6.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(48)
-#    Time: 2460950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test7.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(49)
-#    Time: 2870950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test8.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(50)
-#    Time: 3280950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# ** Warning: (vsim-7) Failed to open readmem file "test9.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(51)
-#    Time: 3690950 ns  Iteration: 0  Instance: /test_bench
-#           0:       x
-#           1:       x
-#           2:       x
-#           3:       x
-#           4:       x
-#           5:       x
-#           6:       x
-#           7:       x
-#           8:       x
-#           9:       x
-#          10:       x
-#          11:       x
-#          12:       x
-#          13:       x
-#          14:       x
-#          15:       x
-#          16:       x
-#          17:       x
-#          18:       x
-#          19:       x
-#          20:       x
-#          21:       x
-#          22:       x
-#          23:       x
-#          24:       x
-#          25:       x
-#          26:       x
-#          27:       x
-#          28:       x
-#          29:       x
-#          30:       x
-#          31:       x
-# good Min = 65535
-# good Max =     0
-# Minimum correct          10/         10
-# Maximum correct          10/         10
-# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(130)
-#    Time: 4100650 ns  Iteration: 0  Instance: /test_bench
-# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv line 130
-quit -sim
-# End time: 13:22:58 on Oct 28,2025, Elapsed time: 0:00:19
-# Errors: 0, Warnings: 11
-cd C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final
-# reading C:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini
-vsim -voptargs=+acc work.test_bench
-# vsim -voptargs="+acc" work.test_bench 
-# Start time: 13:23:24 on Oct 28,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt2
-# Loading sv_std.std
-# Loading work.test_bench(fast)
-# Loading work.top_level(fast)
-# Loading work.PC(fast)
-# Loading work.instr_ROM(fast)
-# Loading work.Control(fast)
-# Loading work.reg_file(fast)
-# Loading work.immed_LUT(fast)
-# Loading work.alu(fast)
-# Loading work.dm(fast)
-# Load canceled
+add wave -position insertpoint sim:/test_bench/abs/*
+add wave -position insertpoint sim:/test_bench/D1/pc1/*
+add wave -position insertpoint sim:/test_bench/D1/rf1/#ASSIGN#17/*
+add wave -position insertpoint sim:/test_bench/D1/dm/*
+add wave -position insertpoint sim:/test_bench/D1/dm/*
+add wave -position insertpoint sim:/test_bench/D1/dm/#ASSIGN#12/*
+add wave -position insertpoint sim:/test_bench/D1/dm/#ALWAYS#15/*
+add wave -position insertpoint sim:/test_bench/abs/*
+add wave -position insertpoint sim:/test_bench/#ALWAYS#21/*
+add wave -position insertpoint sim:/test_bench/#INITIAL#32(#anonblk#174008376#37#4#)/*
+add wave -position insertpoint sim:/test_bench/D1/#ASSIGN#103/*
+add wave -position insertpoint sim:/test_bench/D1/#ALWAYS#94/*
+add wave -position insertpoint sim:/test_bench/D1/dm/#ASSIGN#12/*
+add wave -position insertpoint sim:/test_bench/D1/dm/#ALWAYS#15/*
+add wave -position insertpoint sim:/test_bench/D1/dm/*
+add wave -position insertpoint sim:/test_bench/D1/*
+add wave -position insertpoint sim:/test_bench/D1/dm/*
 run -all
 #           0:       0
 #           1:       1
@@ -611,1316 +1247,15 @@ run -all
 #          29:   -8192
 #          30:  -16384
 #          31:  -32768
-# good Min =     1
-# YOUR MAX = 65025
-# MAD  Max = 65535
-# Max pair = 31, 15
-# Max valu = -32768,  32767
-#           0:       0
-#           1:       1
-#           2:       3
-#           3:       7
-#           4:      15
-#           5:      31
-#           6:      63
-#           7:     127
-#           8:     255
-#           9:     511
-#          10:    1023
-#          11:    2047
-#          12:    4095
-#          13:    8191
-#          14:   16383
-#          15:   32767
-#          16:      -1
-#          17:      -1
-#          18:   32767
-#          19:   16383
-#          20:    8191
-#          21:    4095
-#          22:    2047
-#          23:    1023
-#          24:     511
-#          25:     255
-#          26:     127
-#          27:      63
-#          28:      31
-#          29:      15
-#          30:       7
-#          31:       3
-# YOUR MIN =     1
-# fail Min =     0
-# Min addr = 31,  2
-# Min valu =      3      3
-# YOUR MAX = 65025
-# MAD  Max = 32768
-# Max pair = 16, 15
-# Max valu =     -1,  32767
-#           0:  -32768
-#           1:  -32768
-#           2:  -32768
-#           3:   32767
-#           4:   32767
-#           5:  -32768
-#           6:       0
-#           7:  -32640
-#           8:  -32768
-#           9:       0
-#          10:   32767
-#          11:       0
-#          12:       0
-#          13:   32767
-#          14:     255
-#          15:     255
-#          16:  -32257
-#          17:  -32257
-#          18:   32512
-#          19:   32767
-#          20:   32767
-#          21:   32512
-#          22:      -1
-#          23:    -256
-#          24:    -256
-#          25:      -1
-#          26:     255
-#          27:     256
-#          28:     256
-#          29:     255
-#          30:  -32768
-#          31:     255
-# YOUR MIN = 32512
-# fail Min =     0
-# Min addr =  1,  0
-# Min valu = -32768 -32768
-# YOUR MAX = 65280
-# MAD  Max = 65535
-# Max pair =  3,  0
-# Max valu =  32767, -32768
-#           0:   13604
-#           1:   24193
-#           2:  -10743
-#           3:   22115
-#           4:   31501
-#           5:  -26227
-#           6:  -31643
-#           7:   21010
-#           8:   -7423
-#           9:  -13043
-#          10:   -3722
-#          11:  -12995
-#          12:   22509
-#          13:   -2164
-#          14:   -5639
-#          15:    9414
-#          16:  -31547
-#          17:  -11606
-#          18:   -2075
-#          19:   29303
-#          20:  -10734
-#          21:   -9329
-#          22:   27122
-#          23:  -26930
-#          24:   31464
-#          25:   20165
-#          26:   18780
-#          27:   10429
-#          28:   22573
-#          29:    9829
-#          30:   25187
-#          31:  -30966
-# YOUR MIN = 24338
-# fail Min =     9
-# Min addr = 20,  2
-# Min valu = -10734 -10743
-# YOUR MAX = 62105
-# MAD  Max = 63144
-# Max pair =  6,  4
-# Max valu = -31643,  31501
-#           0:  -17920
-#           1:  -10986
-#           2:     504
-#           3:  -30155
-#           4:   28320
-#           5:   -4360
-#           6:   19353
-#           7:   -3977
-#           8:    4339
-#           9:  -28367
-#          10:  -10403
-#          11:  -17505
-#          12:  -18664
-#          13:   10603
-#          14:    9029
-#          15:   14556
-#          16:   17208
-#          17:   -7818
-#          18:   26171
-#          19:   30436
-#          20:   20469
-#          21:  -23276
-#          22:  -24887
-#          23:   16022
-#          24:   13990
-#          25:    8714
-#          26:  -29760
-#          27:    7440
-#          28:    5257
-#          29:  -15283
-#          30:  -23351
-#          31:   23777
-# YOUR MIN = 51976
-# fail Min =    75
-# Min addr = 30, 21
-# Min valu = -23351 -23276
-# YOUR MAX = 65121
-# MAD  Max = 60591
-# Max pair = 19,  3
-# Max valu =  30436, -30155
-#           0:  -22876
-#           1:   11216
-#           2:  -25919
-#           3:    2764
-#           4:   12129
-#           5:   -3279
-#           6:   20620
-#           7:   -5566
-#           8:   31840
-#           9:   -1631
-#          10:   32302
-#          11:  -18009
-#          12:  -29955
-#          13:  -16655
-#          14:  -17089
-#          15:   -7016
-#          16:   -3944
-#          17:   31317
-#          18:    -260
-#          19:   20046
-#          20:   23234
-#          21:  -25743
-#          22:    3390
-#          23:  -11559
-#          24:    3933
-#          25:   18904
-#          26:    2347
-#          27:  -15081
-#          28:   27397
-#          29:   -6964
-#          30:   -5044
-#          31:   28897
-# YOUR MIN = 25384
-# fail Min =    52
-# Min addr = 29, 15
-# Min valu =  -6964  -7016
-# YOUR MAX = 62413
-# MAD  Max = 62257
-# Max pair = 12, 10
-# Max valu = -29955,  32302
-#           0:  -22521
-#           1:   10740
-#           2:   32724
-#           3:  -14989
-#           4:   30705
-#           5:   19402
-#           6:   -2671
-#           7:   -5995
-#           8:   -6333
-#           9:   -6408
-#          10:  -21803
-#          11:    3199
-#          12:   -6903
-#          13:   -1810
-#          14:   26768
-#          15:  -30138
-#          16:    6239
-#          17:   15458
-#          18:  -16809
-#          19:  -32157
-#          20:   -3316
-#          21:   11675
-#          22:   -1657
-#          23:  -13102
-#          24:  -24946
-#          25:    2323
-#          26:    8592
-#          27:    1567
-#          28:    1647
-#          29:  -13957
-#          30:     517
-#          31:  -29415
-# YOUR MIN = 24588
-# fail Min =    75
-# Min addr =  9,  8
-# Min valu =  -6408  -6333
-# YOUR MAX = 64818
-# MAD  Max = 64881
-# Max pair = 19,  2
-# Max valu = -32157,  32724
-#           0:   16960
-#           1:  -24010
-#           2:  -24908
-#           3:     500
-#           4:  -26535
-#           5:   -1276
-#           6:  -24378
-#           7:  -29693
-#           8:   14276
-#           9:   21441
-#          10:  -14684
-#          11:   -8009
-#          12:  -30692
-#          13:   10646
-#          14:   24809
-#          15:   -9823
-#          16:  -17305
-#          17:  -18037
-#          18:   31698
-#          19:    3869
-#          20:  -16793
-#          21:    -429
-#          22:   -9201
-#          23:   -7325
-#          24:   14232
-#          25:  -19057
-#          26:    6299
-#          27:   27669
-#          28:  -26661
-#          29:   23160
-#          30:   29982
-#          31:  -29433
-# YOUR MIN = 40970
-# fail Min =    44
-# Min addr = 24,  8
-# Min valu =  14232  14276
-# YOUR MAX = 62552
-# MAD  Max = 62390
-# Max pair = 18, 12
-# Max valu =  31698, -30692
-#           0:   10240
-#           1:  -25843
-#           2:  -25426
-#           3:  -28742
-#           4:  -27217
-#           5:    7116
-#           6:  -26536
-#           7:   29816
-#           8:    1411
-#           9:   10884
-#          10:  -10206
-#          11:  -29604
-#          12:  -23279
-#          13:     889
-#          14:   26492
-#          15:   29950
-#          16:   25370
-#          17:  -24032
-#          18:    3765
-#          19:  -30536
-#          20:   -5782
-#          21:  -15632
-#          22:   24510
-#          23:   -6756
-#          24:  -23302
-#          25:   -7999
-#          26:  -24297
-#          27:   25783
-#          28:  -15980
-#          29:   14635
-#          30:   -8176
-#          31:  -23058
-# YOUR MIN = 25872
-# fail Min =    23
-# Min addr = 24, 12
-# Min valu = -23302 -23279
-# YOUR MAX = 64892
-# MAD  Max = 60486
-# Max pair = 19, 15
-# Max valu = -30536,  29950
-#           0:   -6143
-#           1:    9304
-#           2:   28984
-#           3:  -32192
-#           4:  -25748
-#           5:  -23945
-#           6:   26894
-#           7:   15754
-#           8:    6387
-#           9:    3451
-#          10:  -32168
-#          11:  -16727
-#          12:   32453
-#          13:  -14285
-#          14:   14915
-#          15:   21079
-#          16:  -22485
-#          17:    1932
-#          18:  -12992
-#          19:    1499
-#          20:   12664
-#          21:  -19802
-#          22:   13456
-#          23:  -23595
-#          24:   30587
-#          25:   30199
-#          26:   12172
-#          27:  -18623
-#          28:  -27726
-#          29:  -17096
-#          30:   13971
-#          31:  -29614
-# YOUR MIN = 15191
-# fail Min =    24
-# Min addr = 10,  3
-# Min valu = -32168 -32192
-# YOUR MAX = 58431
-# MAD  Max = 64645
-# Max pair = 12,  3
-# Max valu =  32453, -32192
-# Minimum correct           1/         10
-# Maximum correct           0/         10
-# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(130)
-#    Time: 4622950 ns  Iteration: 0  Instance: /test_bench
-# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv line 130
-quit -sim
-# End time: 13:40:26 on Oct 28,2025, Elapsed time: 0:17:02
-# Errors: 0, Warnings: 0
-vsim work.top_level
-# vsim work.top_level 
-# Start time: 13:40:29 on Oct 28,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qpg".
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qtl".
-# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
-# Loading sv_std.std
-# Loading work.top_level(fast)
-quit -sim
-# End time: 13:40:43 on Oct 28,2025, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 3
-vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:41:07 on Oct 28,2025
-# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv 
-# -- Compiling module test_bench
-# 
-# Top level modules:
-# 	test_bench
-# End time: 13:41:07 on Oct 28,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:41:07 on Oct 28,2025
-# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv 
-# -- Compiling module top_level
-# 
-# Top level modules:
-# 	top_level
-# End time: 13:41:07 on Oct 28,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.top_level
-# vsim work.top_level 
-# Start time: 13:41:15 on Oct 28,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt2
-# Loading sv_std.std
-# Loading work.top_level(fast)
-quit -sim
-vsim work.test_bench
-# End time: 13:41:28 on Oct 28,2025, Elapsed time: 0:00:13
-# Errors: 0, Warnings: 0
-# vsim work.test_bench 
-# Start time: 13:41:28 on Oct 28,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qpg".
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qtl".
-# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2".
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(58): (vopt-7061) Variable 'core[66]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(59): (vopt-7061) Variable 'core[67]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(60): (vopt-7061) Variable 'core[68]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(61): (vopt-7061) Variable 'core[69]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(63): (vopt-7061) Variable 'core[70]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(64): (vopt-7061) Variable 'core[71]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(65): (vopt-7061) Variable 'core[72]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(66): (vopt-7061) Variable 'core[73]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(67): (vopt-7061) Variable 'core[74]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(68): (vopt-7061) Variable 'core[75]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(69): (vopt-7061) Variable 'core[76]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(70): (vopt-7061) Variable 'core[77]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(71): (vopt-7061) Variable 'core[78]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(72): (vopt-7061) Variable 'core[79]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(73): (vopt-7061) Variable 'core[0]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(74): (vopt-7061) Variable 'core[1]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(75): (vopt-7061) Variable 'core[2]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(76): (vopt-7061) Variable 'core[3]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(77): (vopt-7061) Variable 'core[4]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(78): (vopt-7061) Variable 'core[5]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(79): (vopt-7061) Variable 'core[6]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(80): (vopt-7061) Variable 'core[7]' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/reg_file.sv(25).
-# ** Error (suppressible): C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(82): (vopt-7061) Variable 'core' driven in an always_ff block, may not be driven by any other process. See C:/Users/brepo/OneDrive/Desktop/CSE 141,L/ARMD_final/dat_mem.sv(17).
-# Optimization failed
-# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qpg".
-# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2/_lib3_0.qtl".
-# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/work/@_opt2".
-# The directory is not empty. (GetLastError() = 145)
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=24, Warnings=6.
-# Error loading design
-# End time: 13:41:28 on Oct 28,2025, Elapsed time: 0:00:00
-# Errors: 24, Warnings: 6
-vsim work.test_bench -voptargs=+acc
-# vsim work.test_bench -voptargs="+acc" 
-# Start time: 13:41:46 on Oct 28,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading sv_std.std
-# Loading work.test_bench(fast)
-# Loading work.top_level(fast)
-# Loading work.PC(fast)
-# Loading work.instr_ROM(fast)
-# Loading work.Control(fast)
-# Loading work.reg_file(fast)
-# Loading work.immed_LUT(fast)
-# Loading work.alu(fast)
-# Loading work.dm(fast)
-run -all
-#           0:       0
-#           1:       1
-#           2:       3
-#           3:       7
-#           4:      15
-#           5:      31
-#           6:      63
-#           7:     127
-#           8:     255
-#           9:     511
-#          10:    1023
-#          11:    2047
-#          12:    4095
-#          13:    8191
-#          14:   16383
-#          15:   32767
-#          16:      -1
-#          17:      -2
-#          18:      -4
-#          19:      -8
-#          20:     -16
-#          21:     -32
-#          22:     -64
-#          23:    -128
-#          24:    -256
-#          25:    -512
-#          26:   -1024
-#          27:   -2048
-#          28:   -4096
-#          29:   -8192
-#          30:  -16384
-#          31:  -32768
-# good Min =     1
-# YOUR MAX = 65025
-# MAD  Max = 65535
-# Max pair = 31, 15
-# Max valu = -32768,  32767
-#           0:       0
-#           1:       1
-#           2:       3
-#           3:       7
-#           4:      15
-#           5:      31
-#           6:      63
-#           7:     127
-#           8:     255
-#           9:     511
-#          10:    1023
-#          11:    2047
-#          12:    4095
-#          13:    8191
-#          14:   16383
-#          15:   32767
-#          16:      -1
-#          17:      -1
-#          18:   32767
-#          19:   16383
-#          20:    8191
-#          21:    4095
-#          22:    2047
-#          23:    1023
-#          24:     511
-#          25:     255
-#          26:     127
-#          27:      63
-#          28:      31
-#          29:      15
-#          30:       7
-#          31:       3
-# YOUR MIN =     1
-# fail Min =     0
-# Min addr = 31,  2
-# Min valu =      3      3
-# YOUR MAX = 65025
-# MAD  Max = 32768
-# Max pair = 16, 15
-# Max valu =     -1,  32767
-#           0:  -32768
-#           1:  -32768
-#           2:  -32768
-#           3:   32767
-#           4:   32767
-#           5:  -32768
-#           6:       0
-#           7:  -32640
-#           8:  -32768
-#           9:       0
-#          10:   32767
-#          11:       0
-#          12:       0
-#          13:   32767
-#          14:     255
-#          15:     255
-#          16:  -32257
-#          17:  -32257
-#          18:   32512
-#          19:   32767
-#          20:   32767
-#          21:   32512
-#          22:      -1
-#          23:    -256
-#          24:    -256
-#          25:      -1
-#          26:     255
-#          27:     256
-#          28:     256
-#          29:     255
-#          30:  -32768
-#          31:     255
-# YOUR MIN = 32512
-# fail Min =     0
-# Min addr =  1,  0
-# Min valu = -32768 -32768
-# YOUR MAX = 65280
-# MAD  Max = 65535
-# Max pair =  3,  0
-# Max valu =  32767, -32768
-#           0:   13604
-#           1:   24193
-#           2:  -10743
-#           3:   22115
-#           4:   31501
-#           5:  -26227
-#           6:  -31643
-#           7:   21010
-#           8:   -7423
-#           9:  -13043
-#          10:   -3722
-#          11:  -12995
-#          12:   22509
-#          13:   -2164
-#          14:   -5639
-#          15:    9414
-#          16:  -31547
-#          17:  -11606
-#          18:   -2075
-#          19:   29303
-#          20:  -10734
-#          21:   -9329
-#          22:   27122
-#          23:  -26930
-#          24:   31464
-#          25:   20165
-#          26:   18780
-#          27:   10429
-#          28:   22573
-#          29:    9829
-#          30:   25187
-#          31:  -30966
-# YOUR MIN = 24338
-# fail Min =     9
-# Min addr = 20,  2
-# Min valu = -10734 -10743
-# YOUR MAX = 62105
-# MAD  Max = 63144
-# Max pair =  6,  4
-# Max valu = -31643,  31501
-#           0:  -17920
-#           1:  -10986
-#           2:     504
-#           3:  -30155
-#           4:   28320
-#           5:   -4360
-#           6:   19353
-#           7:   -3977
-#           8:    4339
-#           9:  -28367
-#          10:  -10403
-#          11:  -17505
-#          12:  -18664
-#          13:   10603
-#          14:    9029
-#          15:   14556
-#          16:   17208
-#          17:   -7818
-#          18:   26171
-#          19:   30436
-#          20:   20469
-#          21:  -23276
-#          22:  -24887
-#          23:   16022
-#          24:   13990
-#          25:    8714
-#          26:  -29760
-#          27:    7440
-#          28:    5257
-#          29:  -15283
-#          30:  -23351
-#          31:   23777
-# YOUR MIN = 51976
-# fail Min =    75
-# Min addr = 30, 21
-# Min valu = -23351 -23276
-# YOUR MAX = 65121
-# MAD  Max = 60591
-# Max pair = 19,  3
-# Max valu =  30436, -30155
-#           0:  -22876
-#           1:   11216
-#           2:  -25919
-#           3:    2764
-#           4:   12129
-#           5:   -3279
-#           6:   20620
-#           7:   -5566
-#           8:   31840
-#           9:   -1631
-#          10:   32302
-#          11:  -18009
-#          12:  -29955
-#          13:  -16655
-#          14:  -17089
-#          15:   -7016
-#          16:   -3944
-#          17:   31317
-#          18:    -260
-#          19:   20046
-#          20:   23234
-#          21:  -25743
-#          22:    3390
-#          23:  -11559
-#          24:    3933
-#          25:   18904
-#          26:    2347
-#          27:  -15081
-#          28:   27397
-#          29:   -6964
-#          30:   -5044
-#          31:   28897
-# YOUR MIN = 25384
-# fail Min =    52
-# Min addr = 29, 15
-# Min valu =  -6964  -7016
-# YOUR MAX = 62413
-# MAD  Max = 62257
-# Max pair = 12, 10
-# Max valu = -29955,  32302
-#           0:  -22521
-#           1:   10740
-#           2:   32724
-#           3:  -14989
-#           4:   30705
-#           5:   19402
-#           6:   -2671
-#           7:   -5995
-#           8:   -6333
-#           9:   -6408
-#          10:  -21803
-#          11:    3199
-#          12:   -6903
-#          13:   -1810
-#          14:   26768
-#          15:  -30138
-#          16:    6239
-#          17:   15458
-#          18:  -16809
-#          19:  -32157
-#          20:   -3316
-#          21:   11675
-#          22:   -1657
-#          23:  -13102
-#          24:  -24946
-#          25:    2323
-#          26:    8592
-#          27:    1567
-#          28:    1647
-#          29:  -13957
-#          30:     517
-#          31:  -29415
-# YOUR MIN = 24588
-# fail Min =    75
-# Min addr =  9,  8
-# Min valu =  -6408  -6333
-# YOUR MAX = 64818
-# MAD  Max = 64881
-# Max pair = 19,  2
-# Max valu = -32157,  32724
-#           0:   16960
-#           1:  -24010
-#           2:  -24908
-#           3:     500
-#           4:  -26535
-#           5:   -1276
-#           6:  -24378
-#           7:  -29693
-#           8:   14276
-#           9:   21441
-#          10:  -14684
-#          11:   -8009
-#          12:  -30692
-#          13:   10646
-#          14:   24809
-#          15:   -9823
-#          16:  -17305
-#          17:  -18037
-#          18:   31698
-#          19:    3869
-#          20:  -16793
-#          21:    -429
-#          22:   -9201
-#          23:   -7325
-#          24:   14232
-#          25:  -19057
-#          26:    6299
-#          27:   27669
-#          28:  -26661
-#          29:   23160
-#          30:   29982
-#          31:  -29433
-# YOUR MIN = 40970
-# fail Min =    44
-# Min addr = 24,  8
-# Min valu =  14232  14276
-# YOUR MAX = 62552
-# MAD  Max = 62390
-# Max pair = 18, 12
-# Max valu =  31698, -30692
-#           0:   10240
-#           1:  -25843
-#           2:  -25426
-#           3:  -28742
-#           4:  -27217
-#           5:    7116
-#           6:  -26536
-#           7:   29816
-#           8:    1411
-#           9:   10884
-#          10:  -10206
-#          11:  -29604
-#          12:  -23279
-#          13:     889
-#          14:   26492
-#          15:   29950
-#          16:   25370
-#          17:  -24032
-#          18:    3765
-#          19:  -30536
-#          20:   -5782
-#          21:  -15632
-#          22:   24510
-#          23:   -6756
-#          24:  -23302
-#          25:   -7999
-#          26:  -24297
-#          27:   25783
-#          28:  -15980
-#          29:   14635
-#          30:   -8176
-#          31:  -23058
-# YOUR MIN = 25872
-# fail Min =    23
-# Min addr = 24, 12
-# Min valu = -23302 -23279
-# YOUR MAX = 64892
-# MAD  Max = 60486
-# Max pair = 19, 15
-# Max valu = -30536,  29950
-#           0:   -6143
-#           1:    9304
-#           2:   28984
-#           3:  -32192
-#           4:  -25748
-#           5:  -23945
-#           6:   26894
-#           7:   15754
-#           8:    6387
-#           9:    3451
-#          10:  -32168
-#          11:  -16727
-#          12:   32453
-#          13:  -14285
-#          14:   14915
-#          15:   21079
-#          16:  -22485
-#          17:    1932
-#          18:  -12992
-#          19:    1499
-#          20:   12664
-#          21:  -19802
-#          22:   13456
-#          23:  -23595
-#          24:   30587
-#          25:   30199
-#          26:   12172
-#          27:  -18623
-#          28:  -27726
-#          29:  -17096
-#          30:   13971
-#          31:  -29614
-# YOUR MIN = 15191
-# fail Min =    24
-# Min addr = 10,  3
-# Min valu = -32168 -32192
-# YOUR MAX = 58431
-# MAD  Max = 64645
-# Max pair = 12,  3
-# Max valu =  32453, -32192
-# Minimum correct           1/         10
-# Maximum correct           0/         10
-# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(130)
-#    Time: 4622950 ns  Iteration: 0  Instance: /test_bench
-# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv line 130
-quit -sim
-# End time: 13:43:14 on Oct 28,2025, Elapsed time: 0:01:28
-# Errors: 0, Warnings: 0
-# Load canceled
-vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:44:34 on Oct 28,2025
-# vlog -reportprogress 300 -work work C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv 
-# -- Compiling module test_bench
-# 
-# Top level modules:
-# 	test_bench
-# End time: 13:44:35 on Oct 28,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Optimization canceled
-vsim -voptargs=+acc work.test_bench
-# vsim -voptargs="+acc" work.test_bench 
-# Start time: 13:45:05 on Oct 28,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading sv_std.std
-# Loading work.test_bench(fast)
-# Loading work.top_level(fast)
-# Loading work.PC(fast)
-# Loading work.instr_ROM(fast)
-# Loading work.Control(fast)
-# Loading work.reg_file(fast)
-# Loading work.immed_LUT(fast)
-# Loading work.alu(fast)
-# Loading work.dm(fast)
-run -all
-#           0:       0
-#           1:       1
-#           2:       3
-#           3:       7
-#           4:      15
-#           5:      31
-#           6:      63
-#           7:     127
-#           8:     255
-#           9:     511
-#          10:    1023
-#          11:    2047
-#          12:    4095
-#          13:    8191
-#          14:   16383
-#          15:   32767
-#          16:      -1
-#          17:      -2
-#          18:      -4
-#          19:      -8
-#          20:     -16
-#          21:     -32
-#          22:     -64
-#          23:    -128
-#          24:    -256
-#          25:    -512
-#          26:   -1024
-#          27:   -2048
-#          28:   -4096
-#          29:   -8192
-#          30:  -16384
-#          31:  -32768
-# YOUR MIN =     1
-# fail Min =     1
-# Min addr =  1,  0
-# Min valu =      1      0
-# YOUR MAX = 65025
-# fail Max = 65535
-# Max pair = 31, 15
-# Max valu = -32768,  32767
-#           0:       0
-#           1:       1
-#           2:       3
-#           3:       7
-#           4:      15
-#           5:      31
-#           6:      63
-#           7:     127
-#           8:     255
-#           9:     511
-#          10:    1023
-#          11:    2047
-#          12:    4095
-#          13:    8191
-#          14:   16383
-#          15:   32767
-#          16:      -1
-#          17:      -1
-#          18:   32767
-#          19:   16383
-#          20:    8191
-#          21:    4095
-#          22:    2047
-#          23:    1023
-#          24:     511
-#          25:     255
-#          26:     127
-#          27:      63
-#          28:      31
-#          29:      15
-#          30:       7
-#          31:       3
-# YOUR MIN =     1
-# fail Min =     0
-# Min addr = 31,  2
-# Min valu =      3      3
-# YOUR MAX = 65025
-# fail Max = 32768
-# Max pair = 16, 15
-# Max valu =     -1,  32767
-#           0:  -32768
-#           1:  -32768
-#           2:  -32768
-#           3:   32767
-#           4:   32767
-#           5:  -32768
-#           6:       0
-#           7:  -32640
-#           8:  -32768
-#           9:       0
-#          10:   32767
-#          11:       0
-#          12:       0
-#          13:   32767
-#          14:     255
-#          15:     255
-#          16:  -32257
-#          17:  -32257
-#          18:   32512
-#          19:   32767
-#          20:   32767
-#          21:   32512
-#          22:      -1
-#          23:    -256
-#          24:    -256
-#          25:      -1
-#          26:     255
-#          27:     256
-#          28:     256
-#          29:     255
-#          30:  -32768
-#          31:     255
-# YOUR MIN = 32512
-# fail Min =     0
-# Min addr =  1,  0
-# Min valu = -32768 -32768
-# YOUR MAX = 65280
-# fail Max = 65535
-# Max pair =  3,  0
-# Max valu =  32767, -32768
-#           0:   13604
-#           1:   24193
-#           2:  -10743
-#           3:   22115
-#           4:   31501
-#           5:  -26227
-#           6:  -31643
-#           7:   21010
-#           8:   -7423
-#           9:  -13043
-#          10:   -3722
-#          11:  -12995
-#          12:   22509
-#          13:   -2164
-#          14:   -5639
-#          15:    9414
-#          16:  -31547
-#          17:  -11606
-#          18:   -2075
-#          19:   29303
-#          20:  -10734
-#          21:   -9329
-#          22:   27122
-#          23:  -26930
-#          24:   31464
-#          25:   20165
-#          26:   18780
-#          27:   10429
-#          28:   22573
-#          29:    9829
-#          30:   25187
-#          31:  -30966
-# YOUR MIN = 24338
-# fail Min =     9
-# Min addr = 20,  2
-# Min valu = -10734 -10743
-# YOUR MAX = 62105
-# fail Max = 63144
-# Max pair =  6,  4
-# Max valu = -31643,  31501
-#           0:  -17920
-#           1:  -10986
-#           2:     504
-#           3:  -30155
-#           4:   28320
-#           5:   -4360
-#           6:   19353
-#           7:   -3977
-#           8:    4339
-#           9:  -28367
-#          10:  -10403
-#          11:  -17505
-#          12:  -18664
-#          13:   10603
-#          14:    9029
-#          15:   14556
-#          16:   17208
-#          17:   -7818
-#          18:   26171
-#          19:   30436
-#          20:   20469
-#          21:  -23276
-#          22:  -24887
-#          23:   16022
-#          24:   13990
-#          25:    8714
-#          26:  -29760
-#          27:    7440
-#          28:    5257
-#          29:  -15283
-#          30:  -23351
-#          31:   23777
-# YOUR MIN = 51976
-# fail Min =    75
-# Min addr = 30, 21
-# Min valu = -23351 -23276
-# YOUR MAX = 65121
-# fail Max = 60591
-# Max pair = 19,  3
-# Max valu =  30436, -30155
-#           0:  -22876
-#           1:   11216
-#           2:  -25919
-#           3:    2764
-#           4:   12129
-#           5:   -3279
-#           6:   20620
-#           7:   -5566
-#           8:   31840
-#           9:   -1631
-#          10:   32302
-#          11:  -18009
-#          12:  -29955
-#          13:  -16655
-#          14:  -17089
-#          15:   -7016
-#          16:   -3944
-#          17:   31317
-#          18:    -260
-#          19:   20046
-#          20:   23234
-#          21:  -25743
-#          22:    3390
-#          23:  -11559
-#          24:    3933
-#          25:   18904
-#          26:    2347
-#          27:  -15081
-#          28:   27397
-#          29:   -6964
-#          30:   -5044
-#          31:   28897
-# YOUR MIN = 25384
-# fail Min =    52
-# Min addr = 29, 15
-# Min valu =  -6964  -7016
-# YOUR MAX = 62413
-# fail Max = 62257
-# Max pair = 12, 10
-# Max valu = -29955,  32302
-#           0:  -22521
-#           1:   10740
-#           2:   32724
-#           3:  -14989
-#           4:   30705
-#           5:   19402
-#           6:   -2671
-#           7:   -5995
-#           8:   -6333
-#           9:   -6408
-#          10:  -21803
-#          11:    3199
-#          12:   -6903
-#          13:   -1810
-#          14:   26768
-#          15:  -30138
-#          16:    6239
-#          17:   15458
-#          18:  -16809
-#          19:  -32157
-#          20:   -3316
-#          21:   11675
-#          22:   -1657
-#          23:  -13102
-#          24:  -24946
-#          25:    2323
-#          26:    8592
-#          27:    1567
-#          28:    1647
-#          29:  -13957
-#          30:     517
-#          31:  -29415
-# YOUR MIN = 24588
-# fail Min =    75
-# Min addr =  9,  8
-# Min valu =  -6408  -6333
-# YOUR MAX = 64818
-# fail Max = 64881
-# Max pair = 19,  2
-# Max valu = -32157,  32724
-#           0:   16960
-#           1:  -24010
-#           2:  -24908
-#           3:     500
-#           4:  -26535
-#           5:   -1276
-#           6:  -24378
-#           7:  -29693
-#           8:   14276
-#           9:   21441
-#          10:  -14684
-#          11:   -8009
-#          12:  -30692
-#          13:   10646
-#          14:   24809
-#          15:   -9823
-#          16:  -17305
-#          17:  -18037
-#          18:   31698
-#          19:    3869
-#          20:  -16793
-#          21:    -429
-#          22:   -9201
-#          23:   -7325
-#          24:   14232
-#          25:  -19057
-#          26:    6299
-#          27:   27669
-#          28:  -26661
-#          29:   23160
-#          30:   29982
-#          31:  -29433
-# YOUR MIN = 40970
-# fail Min =    44
-# Min addr = 24,  8
-# Min valu =  14232  14276
-# YOUR MAX = 62552
-# fail Max = 62390
-# Max pair = 18, 12
-# Max valu =  31698, -30692
-#           0:   10240
-#           1:  -25843
-#           2:  -25426
-#           3:  -28742
-#           4:  -27217
-#           5:    7116
-#           6:  -26536
-#           7:   29816
-#           8:    1411
-#           9:   10884
-#          10:  -10206
-#          11:  -29604
-#          12:  -23279
-#          13:     889
-#          14:   26492
-#          15:   29950
-#          16:   25370
-#          17:  -24032
-#          18:    3765
-#          19:  -30536
-#          20:   -5782
-#          21:  -15632
-#          22:   24510
-#          23:   -6756
-#          24:  -23302
-#          25:   -7999
-#          26:  -24297
-#          27:   25783
-#          28:  -15980
-#          29:   14635
-#          30:   -8176
-#          31:  -23058
-# YOUR MIN = 25872
-# fail Min =    23
-# Min addr = 24, 12
-# Min valu = -23302 -23279
-# YOUR MAX = 64892
-# fail Max = 60486
-# Max pair = 19, 15
-# Max valu = -30536,  29950
-#           0:   -6143
-#           1:    9304
-#           2:   28984
-#           3:  -32192
-#           4:  -25748
-#           5:  -23945
-#           6:   26894
-#           7:   15754
-#           8:    6387
-#           9:    3451
-#          10:  -32168
-#          11:  -16727
-#          12:   32453
-#          13:  -14285
-#          14:   14915
-#          15:   21079
-#          16:  -22485
-#          17:    1932
-#          18:  -12992
-#          19:    1499
-#          20:   12664
-#          21:  -19802
-#          22:   13456
-#          23:  -23595
-#          24:   30587
-#          25:   30199
-#          26:   12172
-#          27:  -18623
-#          28:  -27726
-#          29:  -17096
-#          30:   13971
-#          31:  -29614
-# YOUR MIN = 15191
-# fail Min =    24
-# Min addr = 10,  3
-# Min valu = -32168 -32192
-# YOUR MAX = 58431
-# fail Max = 64645
-# Max pair = 12,  3
-# Max valu =  32453, -32192
-# Minimum correct           0/         10
-# Maximum correct           0/         10
-# ** Note: $stop    : C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv(130)
-#    Time: 4622950 ns  Iteration: 0  Instance: /test_bench
-# Break in Module test_bench at C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench2_new.sv line 130
-# End time: 17:09:34 on Oct 28,2025, Elapsed time: 3:24:29
+# Break key hit
+# Simulation stop requested.
+# Causality operation skipped due to absence of debug database file
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 18:43:44 on Jan 20,2026, Elapsed time: 0:42:40
 # Errors: 0, Warnings: 0

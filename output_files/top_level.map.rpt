@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_level
-Tue Oct 14 16:47:50 2025
+Tue Jan 20 17:22:55 2026
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -52,13 +52,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Tue Oct 14 16:47:50 2025       ;
+; Analysis & Synthesis Status       ; Successful - Tue Jan 20 17:22:55 2026       ;
 ; Quartus Prime Version             ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                     ; top_level                                   ;
 ; Top-level Entity Name             ; top_level                                   ;
 ; Family                            ; Arria II GX                                 ;
 ; Logic utilization                 ; N/A                                         ;
-;     Combinational ALUTs           ; 1,299                                       ;
+;     Combinational ALUTs           ; 1,292                                       ;
 ;     Memory ALUTs                  ; 0                                           ;
 ;     Dedicated logic registers     ; 2,125                                       ;
 ; Total registers                   ; 2125                                        ;
@@ -207,31 +207,31 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------+-----------+
 ; Resource                                      ; Usage     ;
 +-----------------------------------------------+-----------+
-; Estimated ALUTs Used                          ; 1299      ;
-;     -- Combinational ALUTs                    ; 1299      ;
+; Estimated ALUTs Used                          ; 1292      ;
+;     -- Combinational ALUTs                    ; 1292      ;
 ;     -- Memory ALUTs                           ; 0         ;
 ;     -- LUT_REGs                               ; 0         ;
 ; Dedicated logic registers                     ; 2125      ;
 ;                                               ;           ;
-; Estimated ALUTs Unavailable                   ; 3         ;
-;     -- Due to unpartnered combinational logic ; 3         ;
+; Estimated ALUTs Unavailable                   ; 6         ;
+;     -- Due to unpartnered combinational logic ; 6         ;
 ;     -- Due to Memory ALUTs                    ; 0         ;
 ;                                               ;           ;
-; Total combinational functions                 ; 1299      ;
+; Total combinational functions                 ; 1292      ;
 ; Combinational ALUT usage by number of inputs  ;           ;
-;     -- 7 input functions                      ; 3         ;
-;     -- 6 input functions                      ; 875       ;
+;     -- 7 input functions                      ; 6         ;
+;     -- 6 input functions                      ; 864       ;
 ;     -- 5 input functions                      ; 60        ;
-;     -- 4 input functions                      ; 33        ;
-;     -- <=3 input functions                    ; 328       ;
+;     -- 4 input functions                      ; 36        ;
+;     -- <=3 input functions                    ; 326       ;
 ;                                               ;           ;
 ; Combinational ALUTs by mode                   ;           ;
-;     -- normal mode                            ; 1241      ;
-;     -- extended LUT mode                      ; 3         ;
+;     -- normal mode                            ; 1231      ;
+;     -- extended LUT mode                      ; 6         ;
 ;     -- arithmetic mode                        ; 46        ;
 ;     -- shared arithmetic mode                 ; 9         ;
 ;                                               ;           ;
-; Estimated ALUT/register pairs used            ; 3170      ;
+; Estimated ALUT/register pairs used            ; 3168      ;
 ;                                               ;           ;
 ; Total registers                               ; 2125      ;
 ;     -- Dedicated logic registers              ; 2125      ;
@@ -245,7 +245,7 @@ https://fpgasoftware.intel.com/eula.
 ;                                               ;           ;
 ; Maximum fan-out node                          ; clk~input ;
 ; Maximum fan-out                               ; 2125      ;
-; Total fan-out                                 ; 12810     ;
+; Total fan-out                                 ; 12769     ;
 ; Average fan-out                               ; 3.73      ;
 +-----------------------------------------------+-----------+
 
@@ -255,14 +255,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------+-------------+--------------+
-; |top_level                 ; 1299 (13)           ; 2125 (1)                  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 3    ; 0            ; |top_level                ; top_level   ; work         ;
+; |top_level                 ; 1292 (13)           ; 2125 (1)                  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 3    ; 0            ; |top_level                ; top_level   ; work         ;
 ;    |Control:ctl1|          ; 2 (2)               ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|Control:ctl1   ; Control     ; work         ;
 ;    |PC:pc1|                ; 16 (16)             ; 12 (12)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|PC:pc1         ; PC          ; work         ;
-;    |alu:alu1|              ; 119 (119)           ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|alu:alu1       ; alu         ; work         ;
+;    |alu:alu1|              ; 111 (111)           ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|alu:alu1       ; alu         ; work         ;
 ;    |dm:dm|                 ; 1002 (1002)         ; 2048 (2048)               ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|dm:dm          ; dm          ; work         ;
-;    |immed_LUT:lut1|        ; 36 (36)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|immed_LUT:lut1 ; immed_LUT   ; work         ;
-;    |instr_ROM:ir1|         ; 78 (78)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|instr_ROM:ir1  ; instr_ROM   ; work         ;
-;    |reg_file:rf1|          ; 33 (33)             ; 64 (64)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|reg_file:rf1   ; reg_file    ; work         ;
+;    |immed_LUT:lut1|        ; 37 (37)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|immed_LUT:lut1 ; immed_LUT   ; work         ;
+;    |instr_ROM:ir1|         ; 76 (76)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|instr_ROM:ir1  ; instr_ROM   ; work         ;
+;    |reg_file:rf1|          ; 35 (35)             ; 64 (64)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |top_level|reg_file:rf1   ; reg_file    ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -391,21 +391,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SCLR SLD          ; 8                           ;
 ;     plain             ; 5                           ;
 ; boundary_port         ; 3                           ;
-; stratixiv_lcell_comb  ; 1299                        ;
+; stratixiv_lcell_comb  ; 1292                        ;
 ;     arith             ; 46                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 24                          ;
 ;         2 data inputs ; 3                           ;
 ;         4 data inputs ; 4                           ;
 ;         5 data inputs ; 14                          ;
-;     extend            ; 3                           ;
-;         7 data inputs ; 3                           ;
-;     normal            ; 1241                        ;
-;         2 data inputs ; 260                         ;
-;         3 data inputs ; 31                          ;
-;         4 data inputs ; 29                          ;
+;     extend            ; 6                           ;
+;         7 data inputs ; 6                           ;
+;     normal            ; 1231                        ;
+;         2 data inputs ; 262                         ;
+;         3 data inputs ; 27                          ;
+;         4 data inputs ; 32                          ;
 ;         5 data inputs ; 46                          ;
-;         6 data inputs ; 875                         ;
+;         6 data inputs ; 864                         ;
 ;     shared            ; 9                           ;
 ;         1 data inputs ; 1                           ;
 ;         3 data inputs ; 8                           ;
@@ -430,14 +430,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue Oct 14 16:47:42 2025
+    Info: Processing started: Tue Jan 20 17:22:46 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_level -c top_level
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file top_level.sv
-    Info (12023): Found entity 1: top_level File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file test_bench_new.sv
     Info (12023): Found entity 1: test_bench File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/test_bench_new.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file top_level.sv
+    Info (12023): Found entity 1: top_level File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file reg_file.sv
     Info (12023): Found entity 1: reg_file File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/reg_file.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file pc.sv
@@ -461,7 +461,7 @@ Warning (10030): Net "sc_clr" at top_level.sv(19) has no driver or initial value
 Info (12128): Elaborating entity "PC" for hierarchy "PC:pc1" File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv Line: 40
 Warning (10230): Verilog HDL assignment warning at PC.sv(17): truncated value with size 32 to match size of target (12) File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/PC.sv Line: 17
 Info (12128): Elaborating entity "instr_ROM" for hierarchy "instr_ROM:ir1" File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/top_level.sv Line: 45
-Warning (10850): Verilog HDL warning at instr_ROM.sv(10): number of words (292) in memory file does not match the number of elements in the address range [0:4095] File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv Line: 10
+Warning (10850): Verilog HDL warning at instr_ROM.sv(10): number of words (276) in memory file does not match the number of elements in the address range [0:4095] File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv Line: 10
 Warning (10030): Net "core.data_a" at instr_ROM.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv Line: 8
 Warning (10030): Net "core.waddr_a" at instr_ROM.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv Line: 8
 Warning (10030): Net "core.we_a" at instr_ROM.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/brepo/OneDrive/Desktop/courses/cse141_L/ARMD_final/instr_ROM.sv Line: 8
@@ -479,14 +479,14 @@ Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File 
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3414 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3407 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 3411 logic cells
+    Info (21061): Implemented 3404 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 4922 megabytes
-    Info: Processing ended: Tue Oct 14 16:47:50 2025
-    Info: Elapsed time: 00:00:08
+    Info: Peak virtual memory: 4923 megabytes
+    Info: Processing ended: Tue Jan 20 17:22:55 2026
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:13
 
 

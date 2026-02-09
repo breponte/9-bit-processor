@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Tue Oct 14 16:47:50 2025
+Analysis & Synthesis Status : Successful - Tue Jan 20 17:22:55 2026
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : top_level
 Top-level Entity Name : top_level
 Family : Arria II GX
 Logic utilization : N/A
-    Combinational ALUTs : 1,299
+    Combinational ALUTs : 1,292
     Memory ALUTs : 0
     Dedicated logic registers : 2,125
 Total registers : 2125

@@ -60,21 +60,22 @@ initial begin
     D1.dm.core[68] = 'h0000;		         // preset DUT final Max to min possible
     D1.dm.core[69] = 'h0000;
     // preload
-    D1.dm.core[70] = 'd116;
-    D1.dm.core[71] = 'd61;
-    D1.dm.core[72] = 'd82;
-    D1.dm.core[73] = 'd99;
-    D1.dm.core[74] = 'd99;
-    D1.dm.core[75] = 'd154;
-    D1.dm.core[76] = 'd154;
-    D1.dm.core[77] = 'd146;
-    D1.dm.core[78] = 'd154;
-    D1.dm.core[79] = 'd202;
-    D1.dm.core[80] = 'd208;
-    D1.dm.core[81] = 'd208;
-    D1.dm.core[82] = 'd254;
-    D1.dm.core[83] = 'd260;
-    D1.dm.core[84] = 'd260;
+    D1.dm.core[70] = 'd117;
+    D1.dm.core[71] = 'd62;
+    D1.dm.core[72] = 'd83;
+    D1.dm.core[73] = 'd100;
+    D1.dm.core[74] = 'd100;
+
+    D1.dm.core[75] = 'd155;
+    D1.dm.core[76] = 'd155;
+    D1.dm.core[77] = 'd147;
+    D1.dm.core[78] = 'd155;
+    D1.dm.core[79] = 'd207;
+    D1.dm.core[80] = 'd213;
+    D1.dm.core[81] = 'd213;
+    D1.dm.core[82] = 'd259;
+    D1.dm.core[83] = 'd265;
+    D1.dm.core[84] = 'd265;
 	D1.rf1.core[0] = 'd0;
 	D1.rf1.core[1] = 'd0;
 	D1.rf1.core[2] = 'd0;

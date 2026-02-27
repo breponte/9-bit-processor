@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+!.gitignore
+
+# But not programs
+!/programs
+
+# Allow .txt files and .sv
+!*.txt
+!*.sv

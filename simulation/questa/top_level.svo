@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition"
 
-// DATE "02/09/2026 10:53:06"
+// DATE "02/27/2026 14:35:57"
 
 // 
 // Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -33,9 +33,9 @@ module top_level (
 	clk,
 	reset,
 	done);
-input 	reg clk ;
-input 	reg reset ;
-output 	logic done ;
+input 	clk;
+input 	reset;
+output 	done;
 
 // Design Ports Information
 // done	=>  Location: PIN_R17,	 I/O Standard: 2.5 V,	 Current Strength: Default

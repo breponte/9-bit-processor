@@ -119,6 +119,31 @@ int arithmeticDistance(uint8_t * data, uint8_t * result) {
 }
 
 /**
+ * C pseudocode for Robertson multiplication of test cases
+ * @param data (uint8_t *) pointer to loaded test data array
+ * @param result (uint8_t *) pointer to result array to store min/max distances
+ * @returns 0 on success, 1 on fail
+ */
+int multiplication(uint8_t * data, uint8_t * result) {
+    return 1;
+}
+
+/**
+ * Standard multiplication to check as answer key
+ * @param data (uint8_t *) pointer to loaded test data array
+ * @returns 0 on success, 1 on fail
+ */
+int multiplication_true(uint8_t * data, int32_t * result) {
+    for (int i = 0; i < 64; i+=4) {
+        int16_t multiplier = (data[i] << 8 | data[i+1]);
+        int16_t multiplicand = (data[i+2] << 8 | data[i+3]);
+        int32_t product = multiplicand * multiplier;
+        result[i / 4] = product;
+        printf("%hd x %hd = %d\n", multiplicand, multiplier, product);
+    }
+}
+
+/**
  * Read test data from file and store in given data array
  * @param testNum (int) test file number to read from
  * @param data (uint_t *) pointer to data array
@@ -150,19 +175,35 @@ int readTestData(int testNum, uint8_t * data) {
     return 0;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        fprintf(stderr, "Argument Error: Expected 2 arguments, got %d arguments\n", argc);
+        return 1;
+    }
+
+    char * test_case = argv[1];
+    if (!(test_case[0] == '0' || test_case[0] == '1' && test_case[1] == '\0')) {
+        fprintf(stderr, "Argument Error: Unrecognized test argument, got %s\n", test_case);
+        return 1;
+    }
+    int test_code = test_case[0] - '0';
+
     // result[0:2] = min, result[2:4] = max
-    uint8_t result[] = {255, 255, 0, 0};
-    
     uint8_t data[64];
-    for (int i = 0; i < 10; i++) {
-        if (readTestData(i, data) == -1) return 1;
-        arithmeticDistance(data, result);
-        // reset distances
-        result[0] = 255;
-        result[1] = 255;
-        result[2] = 0;
-        result[3] = 0;
+
+    if (test_code == 0) {
+        for (int i = 0; i < 10; i++) {
+            uint8_t result[] = {255, 255, 0, 0};
+            if (readTestData(i, data) == -1) return 1;
+            arithmeticDistance(data, result);
+        }
+    } else if (test_code == 1) {
+        for (int i = 0; i < 10; i++) {
+            int32_t result[16] = {0};
+            if (readTestData(i, data) == -1) return 1;
+            printf("\nTest %d:\n", i);
+            multiplication_true(data, result);
+        } 
     }
 
     return 0;

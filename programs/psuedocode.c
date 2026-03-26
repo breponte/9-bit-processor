@@ -124,7 +124,109 @@ int arithmeticDistance(uint8_t * data, uint8_t * result) {
  * @param result (uint8_t *) pointer to result array to store min/max distances
  * @returns 0 on success, 1 on fail
  */
-int multiplication(uint8_t * data, uint8_t * result) {
+int multiplication(uint8_t * data, int32_t * result) {
+    for (int i = 0; i < 64; i+=4) {
+        uint8_t M_MSB = data[i];
+        uint8_t M_LSB = data[i+1];
+        uint8_t Q_MSB = data[i+2];
+        uint8_t Q_LSB = data[i+3];
+        uint8_t A_MSB = 0;
+        uint8_t A_LSB = 0;
+        uint8_t F = 0;
+        for (int j = 0; j < 15; j++) {
+            if (Q_LSB & 0b00000001) {
+                int16_t A = (A_MSB << 8) | A_LSB;
+                int16_t M = (M_MSB << 8) | M_LSB;
+                A += M;
+                A_MSB = A >> 8;
+                A_LSB = A & 0b0000000011111111;
+            }
+            F = F | ((M_MSB & (Q_LSB << 7)) & 0b10000000);
+            Q_LSB = Q_LSB >> 1;
+            Q_LSB = (Q_MSB << 7) | Q_LSB;
+            Q_MSB = Q_MSB >> 1;
+            Q_MSB = (A_LSB << 7) | Q_MSB;
+            A_LSB = A_LSB >> 1;
+            A_LSB = (A_MSB << 7) | A_LSB;
+            A_MSB = A_MSB >> 1;
+            A_MSB = F | A_MSB;
+        }
+        if (Q_LSB & 0b00000001) {
+            int16_t A = (A_MSB << 8) | A_LSB;
+            int16_t M = (M_MSB << 8) | M_LSB;
+            A -= M;
+            A_MSB = A >> 8;
+            A_LSB = A & 0b0000000011111111;
+        }
+        F = ((M_MSB ^ (Q_LSB << 7)) & 0b10000000);
+        Q_LSB = Q_LSB >> 1;
+        Q_LSB = (Q_MSB << 7) | Q_LSB;
+        Q_MSB = Q_MSB >> 1;
+        Q_MSB = (A_LSB << 7) | Q_MSB;
+        A_LSB = A_LSB >> 1;
+        A_LSB = (A_MSB << 7) | A_LSB;
+        A_MSB = A_MSB >> 1;
+
+        if (A_MSB + A_LSB + Q_MSB + Q_LSB != 0) 
+            A_MSB = F | A_MSB;
+
+        int16_t multiplier = (data[i] << 8 | data[i+1]);
+        int16_t multiplicand = (data[i+2] << 8 | data[i+3]);
+        int32_t product = (A_MSB << 24) | (A_LSB << 16) | (Q_MSB << 8) | (Q_LSB);
+        result[i / 4] = product;
+        printf("%hd x %hd = %d\n", multiplicand, multiplier, product);
+        // if ((multiplicand == -32640 && multiplier == 0) || (multiplicand == 0 && multiplier == -32768)) {
+        //     printf("\n");
+        //     printf("A=%d %d Q=%d %d\n", A_MSB, A_LSB, Q_MSB, Q_LSB);
+        //     printf("product raw: %ld\n", (long)product);
+        //     for (int k = 31; k >= 0; k--) {
+        //         printf("%d", (product >> k) & 1);
+        //     }
+        //     printf("\n");
+        // }
+    }
+    return 1;
+}
+
+/**
+ * C pseudocode for Robertson multiplication (using ASR) of test cases (BROKEN)
+ * @param data (uint8_t *) pointer to loaded test data array
+ * @param result (uint8_t *) pointer to result array to store min/max distances
+ * @returns 0 on success, 1 on fail
+ */
+int multiplication_asr(uint8_t * data, int32_t * result) {
+    for (int i = 0; i < 64; i+=4) {
+        uint16_t M = (data[i] << 8) | data[i+1];
+        uint16_t Q = (data[i+2] << 8) | data[i+3];
+        uint16_t A = 0;
+        for (int j = 0; j < 15; j++) {
+            if (Q & 1) {
+                A += M;
+            }
+            Q = (A << 15) | (Q >> 1);
+            A = (A & 0b1000000000000000) | (A >> 1);
+        }
+        if (Q & 1) {
+            A -= M;
+        }
+        Q = (A << 15) | (Q >> 1);
+        A = (A & 0b1000000000000000) | (A >> 1);
+
+        int16_t multiplier = (data[i] << 8 | data[i+1]);
+        int16_t multiplicand = (data[i+2] << 8 | data[i+3]);
+        int32_t product = (A << 16) | (Q);
+        result[i / 4] = product;
+        printf("%hd x %hd = %d\n", multiplicand, multiplier, product);
+        // if ((multiplicand == -32640 && multiplier == 0) || (multiplicand == 0 && multiplier == -32768)) {
+        //     printf("\n");
+        //     printf("A=%d %d Q=%d %d\n", A_MSB, A_LSB, Q_MSB, Q_LSB);
+        //     printf("product raw: %ld\n", (long)product);
+        //     for (int k = 31; k >= 0; k--) {
+        //         printf("%d", (product >> k) & 1);
+        //     }
+        //     printf("\n");
+        // }
+    }
     return 1;
 }
 
@@ -202,7 +304,9 @@ int main(int argc, char *argv[]) {
             int32_t result[16] = {0};
             if (readTestData(i, data) == -1) return 1;
             printf("\nTest %d:\n", i);
-            multiplication_true(data, result);
+            //multiplication_true(data, result);
+            // multiplication(data, result);
+            multiplication_asr(data, result);
         } 
     }
 
